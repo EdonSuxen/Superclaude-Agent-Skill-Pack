@@ -209,16 +209,22 @@ set -euo pipefail
 
 INPUT=$(cat)
 
+# Guard: reject empty or malformed JSON
+if [ -z "$INPUT" ] || ! echo "$INPUT" | jq -e . > /dev/null 2>&1; then
+  exit 0
+fi
+
 # Skip if user interrupted (not a real error)
 IS_INTERRUPT=$(echo "$INPUT" | jq -r '.is_interrupt // false')
 [ "$IS_INTERRUPT" = "true" ] && exit 0
 
 TOOL_NAME=$(echo "$INPUT" | jq -r '.tool_name // "unknown"')
-ERROR_MSG=$(echo "$INPUT" | jq -r '.error // "unknown error"')
+ERROR_MSG=$(echo "$INPUT" | jq -r '.error // "unknown error"' | head -c 500)
 COMMAND=$(echo "$INPUT" | jq -r '.tool_input.command // ""' | head -c 500)
-SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"')
-CWD=$(echo "$INPUT" | jq -r '.cwd // "."')
+SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"' | cut -c1-8)
 
+# Use $CLAUDE_PROJECT_DIR (set by Claude Code) — never trust cwd from stdin
+CWD="${CLAUDE_PROJECT_DIR:-.}"
 LEARNINGS_DIR="$CWD/.learnings"
 mkdir -p "$LEARNINGS_DIR"
 
@@ -255,19 +261,28 @@ set -euo pipefail
 
 INPUT=$(cat)
 
+# Guard: reject empty or malformed JSON
+if [ -z "$INPUT" ] || ! echo "$INPUT" | jq -e . > /dev/null 2>&1; then
+  exit 0
+fi
+
 PROMPT=$(echo "$INPUT" | jq -r '.prompt // ""')
 [ -z "$PROMPT" ] && exit 0
 
-SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"')
-CWD=$(echo "$INPUT" | jq -r '.cwd // "."')
+# Truncate prompt to prevent PII leakage (300 chars captures the signal)
+PROMPT_SAFE="${PROMPT:0:300}"
+SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"' | cut -c1-8)
 
+# Use $CLAUDE_PROJECT_DIR (set by Claude Code) — never trust cwd from stdin
+CWD="${CLAUDE_PROJECT_DIR:-.}"
 LEARNINGS_DIR="$CWD/.learnings"
+mkdir -p "$LEARNINGS_DIR"
+
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
 ENTRY_ID="entry-$(date '+%s')-$$"
 
 # Feature request detection
 if echo "$PROMPT" | grep -iqE "(can you add|feature request|would be nice if|I wish|it would help if|please add|we need a)"; then
-  mkdir -p "$LEARNINGS_DIR"
   {
     printf '\n## [FEATURE] User request — %s  (ID: %s)\n\n' "$TIMESTAMP" "$ENTRY_ID"
     printf '**Area**: `%s`\n' "$CWD"
@@ -275,7 +290,7 @@ if echo "$PROMPT" | grep -iqE "(can you add|feature request|would be nice if|I w
     printf '**Priority**: medium\n'
     printf '**Status**: new\n\n'
     printf '### What Was Requested\n'
-    printf '%s\n\n' "$PROMPT"
+    printf '%s\n\n' "$PROMPT_SAFE"
     printf '### Metadata\n- **Session**: %s\n- **Promoted**: false\n---\n' "$SESSION_ID"
   } >> "$LEARNINGS_DIR/FEATURE_REQUESTS.md"
   echo "[LOGGED] Feature request → .learnings/FEATURE_REQUESTS.md (ID: $ENTRY_ID)"
@@ -283,8 +298,7 @@ if echo "$PROMPT" | grep -iqE "(can you add|feature request|would be nice if|I w
 fi
 
 # Correction detection (case-insensitive)
-if echo "$PROMPT" | grep -iqE "(actually|no,? that'?s wrong|I meant|not what I asked|that'?s incorrect|you'?re wrong|wrong approach|don'?t do that)"; then
-  mkdir -p "$LEARNINGS_DIR"
+if echo "$PROMPT" | grep -iqE "(actually,? (that|no|it|you)|no,? that'?s wrong|I meant|not what I asked|that'?s incorrect|you'?re wrong|wrong approach|don'?t do that)"; then
   {
     printf '\n## [CORRECTION] User correction — %s  (ID: %s)\n\n' "$TIMESTAMP" "$ENTRY_ID"
     printf '**Area**: `%s`\n' "$CWD"
@@ -294,7 +308,7 @@ if echo "$PROMPT" | grep -iqE "(actually|no,? that'?s wrong|I meant|not what I a
     printf '### What Happened\n'
     printf 'User corrected Claude'\''s approach or output.\n\n'
     printf '### Context\n'
-    printf '%s\n\n' "$PROMPT"
+    printf '%s\n\n' "$PROMPT_SAFE"
     printf '### Resolution\n[Apply user'\''s correction and update approach]\n\n'
     printf '### Metadata\n- **Session**: %s\n- **Promoted**: false\n---\n' "$SESSION_ID"
   } >> "$LEARNINGS_DIR/LEARNINGS.md"
