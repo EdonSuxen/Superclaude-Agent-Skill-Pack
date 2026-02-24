@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Data Pipeline Engineer",
+  "slug": "superclaude-data-pipeline-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Data pipeline architect and ETL/ELT orchestration specialist building scalable",
+  "description": "Data pipeline architect and ETL/ELT orchestration specialist building scalable, reliable data platforms with Airflow, dbt, Kafka, and Flink. Designs ingestion pipelines, implements data quality gates, configures streaming architectures, and optimizes batch processing. Activates on \"ETL pipeline\", \"data ingestion\", \"Airflow DAG\", \"Kafka streaming\", \"dbt models\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "data-engineering",
+    "etl",
+    "airflow",
+    "dbt",
+    "kafka",
+    "data-quality",
+    "streaming",
+    "batch-processing"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

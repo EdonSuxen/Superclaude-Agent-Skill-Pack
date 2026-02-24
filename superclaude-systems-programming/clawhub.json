@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Systems Programming",
+  "slug": "superclaude-systems-programming",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "High-performance systems programming using two specialists",
+  "description": "High-performance systems programming using two specialists — rust-systems-engineer (memory safety, async/await, unsafe Rust, FFI, performance optimization) and embedded-systems-engineer (RTOS, bare-metal development, hardware interfacing, resource-constrained systems). Returns systems design with safety guarantees and performance benchmarks. Activates on \"write in Rust\", \"embedded firmware\", \"systems programming\", \"memory-safe\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "systems-programming",
+    "rust",
+    "embedded",
+    "memory-safety",
+    "rtos",
+    "bare-metal",
+    "performance-engineering",
+    "ffi"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

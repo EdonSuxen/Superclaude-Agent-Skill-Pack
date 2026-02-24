@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Debug",
+  "slug": "superclaude-debug",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Root cause analysis and debugging using two SuperClaude specialists",
+  "description": "Root cause analysis and debugging using two SuperClaude specialists — analyzer (systematic evidence-based root cause investigation) and testing-strategist (reproduction test design and regression prevention). Returns a diagnosis with a targeted fix and test plan.",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "debugging",
+    "root-cause",
+    "repair-loop",
+    "troubleshooting",
+    "stack-trace",
+    "error-analysis",
+    "test-reproduction"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

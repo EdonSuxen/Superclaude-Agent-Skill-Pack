@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Spotify",
+  "slug": "superclaude-spotify",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Spotify music intelligence using two specialists",
+  "description": "Spotify music intelligence using two specialists — multimedia-pipeline-orchestrator (audio feature analysis, playlist structure, track characteristics, BPM/key detection) and data-analyst-expert (listening trends, genre distribution, mood patterns, recommendation algorithms). Analyzes playlists, discovers patterns, and provides data-driven music recommendations. Activates on \"analyze my playlist\", \"recommend music\", \"listening trends\", \"genre breakdown\".",
+  "category": "media",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "spotify",
+    "music-intelligence",
+    "playlist-analysis",
+    "audio-features",
+    "genre-analysis",
+    "recommendations",
+    "listening-trends"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

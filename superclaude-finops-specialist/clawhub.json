@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude FinOps Specialist",
+  "slug": "superclaude-finops-specialist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "FinOps and cloud cost optimization specialist",
+  "description": "FinOps and cloud cost optimization specialist for Kubernetes cost engineering, cloud billing analysis, resource rightsizing, and financial governance. Analyzes AWS/GCP/Azure spend, identifies waste, designs savings plans, and builds cost allocation frameworks with showback/chargeback. Activates on \"cloud costs\", \"rightsizing\", \"savings plan\", \"cost optimization\", \"FinOps\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "finops",
+    "cloud-cost",
+    "rightsizing",
+    "savings-plans",
+    "cost-optimization",
+    "budget-governance",
+    "kubernetes-cost",
+    "reserved-instances"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

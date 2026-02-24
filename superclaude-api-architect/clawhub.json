@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude API Architect",
+  "slug": "superclaude-api-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "API design, governance, and integration specialist for REST, GraphQL, and gRPC",
+  "description": "API design, governance, and integration specialist for REST, GraphQL, and gRPC. Produces OpenAPI specifications, designs gateway patterns, plans versioning strategies, and optimizes developer experience (DX). Prioritizes backward compatibility, clear contracts, and self-documenting interfaces. Activates on \"design an API\", \"OpenAPI spec\", \"REST vs GraphQL\", \"API versioning\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "api-design",
+    "rest",
+    "graphql",
+    "grpc",
+    "openapi",
+    "api-gateway",
+    "versioning",
+    "developer-experience"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

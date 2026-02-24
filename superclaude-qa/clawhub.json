@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude QA",
+  "slug": "superclaude-qa",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Test automation, quality gates, defect management, and coverage analysis",
+  "description": "Test automation, quality gates, defect management, and coverage analysis. Writes tests that catch real bugs, not just hit coverage numbers. Applies prevention-first methodology with test pyramid strategy. Activates on \"write tests for this\", \"why is this test flaky\", \"improve test coverage\", \"quality gate\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "testing",
+    "qa",
+    "test-automation",
+    "vitest",
+    "jest",
+    "coverage",
+    "quality-assurance",
+    "ci-cd"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Green Tech Sustainability Expert",
+  "slug": "superclaude-green-tech-sustainability-expert",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Green technology and sustainability expert specializing in carbon measurement",
+  "description": "Green technology and sustainability expert specializing in carbon measurement, energy-efficient architecture, ESG reporting, and sustainable software practices. Measures software carbon intensity, optimizes cloud resource utilization, designs green CI/CD pipelines, and generates ESG compliance reports. Activates on \"carbon footprint\", \"energy efficiency\", \"ESG reporting\", \"green computing\", \"sustainable software\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "sustainability",
+    "green-tech",
+    "carbon-footprint",
+    "energy-efficiency",
+    "esg-reporting",
+    "sustainable-software",
+    "green-cloud",
+    "sci-measurement"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

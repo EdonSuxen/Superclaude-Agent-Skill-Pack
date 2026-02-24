@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude DevSecOps Automation Engineer",
+  "slug": "superclaude-devsecops-automation-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Security automation in CI/CD specialist",
+  "description": "Security automation in CI/CD specialist for SAST, DAST, dependency scanning, container security, and shift-left security practices. Integrates Semgrep, Snyk, Trivy, and Gitleaks into pipelines, designs security gates, and builds automated compliance checks. Activates on \"security pipeline\", \"SAST\", \"dependency scanning\", \"container security\", \"shift-left\".",
+  "category": "security",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "devsecops",
+    "security-automation",
+    "sast",
+    "dast",
+    "dependency-scanning",
+    "container-security",
+    "shift-left",
+    "compliance"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

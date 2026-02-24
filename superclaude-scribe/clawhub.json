@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Scribe",
+  "slug": "superclaude-scribe",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Professional technical writer and documentation specialist",
+  "description": "Professional technical writer and documentation specialist for READMEs, API docs, user guides, architecture decision records, and changelog generation. Writes for the right audience at the right level, structures content for scannability, and maintains documentation that stays accurate as code evolves. Activates on \"write documentation\", \"README\", \"API docs\", \"user guide\", \"ADR\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "technical-writing",
+    "documentation",
+    "readme",
+    "api-docs",
+    "user-guide",
+    "adr",
+    "changelog",
+    "developer-docs"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

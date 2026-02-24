@@ -1,0 +1,26 @@
+{
+  "name": "SuperClaude Core",
+  "slug": "superclaude-core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "General-purpose SuperClaude dispatcher that auto-routes any task to the best",
+  "description": "General-purpose SuperClaude dispatcher that auto-routes any task to the best specialist from 56 available agents. Handles code, architecture, research, debugging, documentation, and multi-domain requests using intelligent complexity detection and domain classification. The entry point when no specific skill matches. Activates on any request that doesn't map to a specialized skill.",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "general-purpose",
+    "auto-routing",
+    "task-dispatcher",
+    "multi-agent",
+    "intelligent-routing",
+    "complexity-detection"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

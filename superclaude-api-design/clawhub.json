@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude API Design",
+  "slug": "superclaude-api-design",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Contract-first API design and implementation using two specialists",
+  "description": "Contract-first API design and implementation using two specialists — api-architect (OpenAPI specs, REST/GraphQL/gRPC patterns, versioning strategy, rate limiting) and backend-architect (service implementation, middleware, authentication, error handling). Returns OpenAPI specs, endpoint contracts, and implementation scaffolding. Activates on \"design an API\", \"REST vs GraphQL\", \"API versioning\", \"OpenAPI spec\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "api-design",
+    "rest",
+    "graphql",
+    "grpc",
+    "openapi",
+    "swagger",
+    "api-gateway",
+    "versioning"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

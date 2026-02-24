@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude DevOps Engineer",
+  "slug": "superclaude-devops-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "CI/CD automation and infrastructure deployment specialist",
+  "description": "CI/CD automation and infrastructure deployment specialist for GitHub Actions, GitLab CI, Docker containerization, Kubernetes deployment, and Terraform infrastructure-as-code. Builds pipelines, optimizes build times, configures rollback strategies, and automates infrastructure provisioning. Activates on \"CI/CD pipeline\", \"Docker\", \"Kubernetes deploy\", \"Terraform\", \"GitHub Actions\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "devops",
+    "ci-cd",
+    "docker",
+    "kubernetes",
+    "terraform",
+    "github-actions",
+    "infrastructure-automation",
+    "deployment"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

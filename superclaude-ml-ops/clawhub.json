@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude ML Ops",
+  "slug": "superclaude-ml-ops",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "MLOps and feature engineering using two specialists",
+  "description": "MLOps and feature engineering using two specialists — ai-ml-engineer (experiment tracking, model registry, training pipelines, model serving, drift detection) and data-pipeline-engineer (feature stores, ETL for training data, Airflow orchestration, data versioning). Returns end-to-end ML platform designs with reproducible training and reliable serving. Activates on \"MLOps pipeline\", \"model deployment\", \"feature store\", \"model monitoring\".",
+  "category": "ai",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "mlops",
+    "model-deployment",
+    "feature-store",
+    "experiment-tracking",
+    "model-monitoring",
+    "airflow",
+    "mlflow",
+    "drift-detection"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

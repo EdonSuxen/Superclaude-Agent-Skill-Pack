@@ -1,0 +1,26 @@
+{
+  "name": "SuperClaude Notion",
+  "slug": "superclaude-notion",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Notion workspace intelligence using two specialists",
+  "description": "Notion workspace intelligence using two specialists — document-intelligence-expert (page extraction, structured analysis, content summarization, block parsing) and data-analyst-expert (database queries, KPI dashboards, trend analysis, sprint velocity). Reads Notion pages, databases, and blocks to provide summaries, insights, and action items. Activates on \"summarize my Notion\", \"analyze this database\", \"extract action items\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "notion",
+    "workspace-intelligence",
+    "document-analysis",
+    "kpi-dashboards",
+    "productivity",
+    "content-extraction"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

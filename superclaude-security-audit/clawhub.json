@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Security Audit",
+  "slug": "superclaude-security-audit",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Comprehensive security audit using three SuperClaude security specialists",
+  "description": "Comprehensive security audit using three SuperClaude security specialists in parallel — security (threat modeling, vulnerability analysis), devsecops-automation-engineer (automated SAST/DAST scanning, CI/CD gates), and compliance-auditor (GDPR/SOC 2/HIPAA mapping). Returns a structured security report with prioritized findings.",
+  "category": "security",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "security-audit",
+    "threat-modeling",
+    "owasp",
+    "compliance",
+    "sast-dast",
+    "vulnerability-assessment",
+    "gdpr",
+    "soc2"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

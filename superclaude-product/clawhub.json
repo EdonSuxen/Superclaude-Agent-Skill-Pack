@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Product",
+  "slug": "superclaude-product",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Product strategy using two specialists",
+  "description": "Product strategy using two specialists — product-manager (PRDs, user stories, roadmap prioritization, feature scoping, acceptance criteria) and business-strategy-expert (market positioning, competitive analysis, pricing strategy, go-to-market planning). Returns product specs with business alignment. Activates on \"write a PRD\", \"prioritize our backlog\", \"product roadmap\", \"feature vs build decision\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "product-management",
+    "prd",
+    "roadmap",
+    "user-stories",
+    "market-strategy",
+    "prioritization",
+    "go-to-market",
+    "competitive-analysis"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

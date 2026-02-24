@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude AI",
+  "slug": "superclaude-ai",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "AI and ML engineering using two specialists",
+  "description": "AI and ML engineering using two specialists — ai-ml-engineer (model training, inference optimization, MLOps pipelines, responsible AI) and ai-agent-orchestrator (multi-agent system design, RAG architectures, tool orchestration, agent safety). Returns architecture decisions, deployment plans, and evaluation frameworks. Activates on \"build an AI agent\", \"deploy a model\", \"RAG pipeline\", \"LLM integration\".",
+  "category": "ai",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "ai",
+    "machine-learning",
+    "mlops",
+    "llm",
+    "rag",
+    "model-deployment",
+    "agent-orchestration",
+    "responsible-ai"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

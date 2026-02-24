@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Platform Engineer",
+  "slug": "superclaude-platform-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Developer experience and internal platform architecture specialist",
+  "description": "Developer experience and internal platform architecture specialist for IDPs, Backstage, golden paths, and DORA metrics optimization. Builds self-service developer portals, designs service catalogs, creates scaffolding templates, and measures engineering productivity. Activates on \"developer portal\", \"Backstage\", \"golden path\", \"DORA metrics\", \"internal platform\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "platform-engineering",
+    "developer-experience",
+    "backstage",
+    "golden-paths",
+    "dora-metrics",
+    "internal-developer-platform",
+    "service-catalog",
+    "self-service"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

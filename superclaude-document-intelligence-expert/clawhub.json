@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Document Intelligence Expert",
+  "slug": "superclaude-document-intelligence-expert",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Document processing and knowledge extraction specialist",
+  "description": "Document processing and knowledge extraction specialist for OCR, NLP, contract analysis, and intelligent document transformation across PDF, DOCX, and structured formats. Extracts entities, classifies documents, builds searchable knowledge bases, and automates document workflows. Activates on \"PDF extraction\", \"contract analysis\", \"document processing\", \"OCR\", \"knowledge extraction\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "document-processing",
+    "ocr",
+    "nlp",
+    "contract-analysis",
+    "knowledge-extraction",
+    "pdf",
+    "entity-extraction",
+    "classification"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

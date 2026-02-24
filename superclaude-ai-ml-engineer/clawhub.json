@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude AI ML Engineer",
+  "slug": "superclaude-ai-ml-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "MLOps and AI integration specialist",
+  "description": "MLOps and AI integration specialist for model training pipelines, experiment tracking, LLM fine-tuning, inference optimization, and responsible AI practices. Handles the full ML lifecycle from data preparation through production deployment with monitoring for drift and bias. Activates on \"train a model\", \"MLOps pipeline\", \"fine-tune LLM\", \"model deployment\", \"feature engineering\".",
+  "category": "ai",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "machine-learning",
+    "mlops",
+    "llm-fine-tuning",
+    "model-deployment",
+    "inference-optimization",
+    "responsible-ai",
+    "experiment-tracking"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

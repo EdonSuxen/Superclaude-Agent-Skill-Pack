@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude DevOps",
+  "slug": "superclaude-devops",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "CI/CD pipeline engineering and platform operations using two specialists",
+  "description": "CI/CD pipeline engineering and platform operations using two specialists — devops-engineer (pipeline automation, Docker, Kubernetes deployment, GitOps) and platform-engineer (internal developer platforms, golden paths, Backstage, DORA metrics). Returns pipeline configs, deployment strategies, and developer experience improvements. Activates on \"set up CI/CD\", \"deployment pipeline\", \"Docker setup\", \"improve developer experience\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "devops",
+    "ci-cd",
+    "docker",
+    "kubernetes",
+    "gitlab-ci",
+    "github-actions",
+    "gitops",
+    "infrastructure-as-code"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

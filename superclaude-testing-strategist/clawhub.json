@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Testing Strategist",
+  "slug": "superclaude-testing-strategist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Testing strategy and QA engineering specialist",
+  "description": "Testing strategy and QA engineering specialist for test pyramid planning, mutation testing, contract testing, and test automation architecture. Designs testing strategies that maximize bug detection with minimal maintenance, selects testing tools, plans coverage targets, and builds automation frameworks. Activates on \"test strategy\", \"test pyramid\", \"mutation testing\", \"contract testing\", \"test automation\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "testing-strategy",
+    "test-pyramid",
+    "mutation-testing",
+    "contract-testing",
+    "test-automation",
+    "coverage",
+    "e2e-testing",
+    "integration-testing"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

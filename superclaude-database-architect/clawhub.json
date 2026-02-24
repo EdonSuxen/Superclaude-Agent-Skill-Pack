@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Database Architect",
+  "slug": "superclaude-database-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "PostgreSQL, MySQL, and MongoDB schema design, query optimization",
+  "description": "PostgreSQL, MySQL, and MongoDB schema design, query optimization, migration planning, and polyglot persistence strategy. Applies normalization principles, index strategy, and data modeling best practices. Activates on \"design this schema\", \"why is my query slow\", \"help with migrations\", \"which database should I use\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "database",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "schema-design",
+    "query-optimization",
+    "migrations",
+    "data-modeling"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

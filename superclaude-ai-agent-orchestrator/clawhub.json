@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude AI Agent Orchestrator",
+  "slug": "superclaude-ai-agent-orchestrator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Multi-agent system coordinator and LLM orchestration specialist",
+  "description": "Multi-agent system coordinator and LLM orchestration specialist for designing RAG architectures, agent safety guardrails, tool orchestration patterns, and autonomous AI systems. Handles agent routing, conflict resolution, and emergent behavior management. Activates on \"multi-agent system\", \"agent orchestration\", \"RAG pipeline\", \"AI safety guardrails\", \"tool use design\".",
+  "category": "ai",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "multi-agent",
+    "orchestration",
+    "rag",
+    "agent-safety",
+    "llm-orchestration",
+    "tool-use",
+    "autonomous-ai"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

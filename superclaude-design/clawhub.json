@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Design",
+  "slug": "superclaude-design",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "UX and visual design using two specialists",
+  "description": "UX and visual design using two specialists — digital-experience-designer (UX research, usability testing, interaction design, WCAG 2.2 accessibility) and visual-communication-architect (brand identity, typography, data visualization, Vignelli methodology). Returns UX audits, wireframes, and visual specifications. Activates on \"UX review\", \"redesign this page\", \"improve user flow\", \"design critique\".",
+  "category": "design",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "ux-design",
+    "visual-design",
+    "brand-identity",
+    "typography",
+    "data-visualization",
+    "wcag",
+    "interaction-design",
+    "wireframes"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

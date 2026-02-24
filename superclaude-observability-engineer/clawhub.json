@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Observability Engineer",
+  "slug": "superclaude-observability-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Monitoring, logging, tracing, and visibility specialist",
+  "description": "Monitoring, logging, tracing, and visibility specialist for Prometheus, Grafana, OpenTelemetry, and distributed systems observability. Designs metric collection pipelines, builds Grafana dashboards, configures distributed tracing with context propagation, and sets up alerting with actionable runbooks. Activates on \"monitoring\", \"Grafana dashboard\", \"OpenTelemetry\", \"distributed tracing\", \"alerting\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "observability",
+    "prometheus",
+    "grafana",
+    "opentelemetry",
+    "distributed-tracing",
+    "monitoring",
+    "alerting",
+    "logging"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

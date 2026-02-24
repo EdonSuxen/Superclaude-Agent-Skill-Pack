@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Growth",
+  "slug": "superclaude-growth",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Growth strategy using two specialists",
+  "description": "Growth strategy using two specialists — growth-marketing-strategist (acquisition funnels, A/B testing, campaign optimization, viral loops, retention strategies) and data-analyst-expert (funnel analytics, cohort analysis, experiment design, KPI dashboards). Returns data-backed growth plans with measurable experiments. Activates on \"improve conversion\", \"growth strategy\", \"A/B test\", \"reduce churn\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "growth-marketing",
+    "ab-testing",
+    "conversion",
+    "retention",
+    "funnel-analysis",
+    "analytics",
+    "experimentation",
+    "acquisition"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

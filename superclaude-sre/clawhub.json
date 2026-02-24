@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude SRE",
+  "slug": "superclaude-sre",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Site reliability engineering using three specialists",
+  "description": "Site reliability engineering using three specialists — sre-chaos-engineer (chaos experiments, error budgets, capacity planning, disaster recovery), observability-engineer (Prometheus/Grafana, OpenTelemetry, alerting), and incident-commander (runbooks, postmortems, crisis communication). Returns reliability assessments with SLO definitions and improvement roadmaps. Activates on \"define SLOs\", \"chaos test\", \"improve reliability\", \"postmortem\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "sre",
+    "reliability",
+    "chaos-engineering",
+    "slo-sli",
+    "incident-response",
+    "error-budgets",
+    "disaster-recovery",
+    "observability"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Cloud Native Architect",
+  "slug": "superclaude-cloud-native-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Cloud infrastructure and Kubernetes orchestration specialist",
+  "description": "Cloud infrastructure and Kubernetes orchestration specialist for multi-cloud architecture, service mesh configuration (Istio, Linkerd), container orchestration, and cloud migration planning. Designs scalable, cost-efficient infrastructure with proper resource limits, autoscaling, and disaster recovery. Activates on \"Kubernetes\", \"cloud migration\", \"service mesh\", \"container orchestration\", \"multi-cloud\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "kubernetes",
+    "cloud-native",
+    "service-mesh",
+    "container-orchestration",
+    "multi-cloud",
+    "aws",
+    "gcp",
+    "azure"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

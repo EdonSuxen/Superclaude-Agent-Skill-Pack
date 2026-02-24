@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Systems Innovation Strategist",
+  "slug": "superclaude-systems-innovation-strategist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "World-class strategic design, service design, design research",
+  "description": "World-class strategic design, service design, design research, and generative/AI-assisted design specialist combining systems thinking (Meadows), innovation frameworks, and computational creativity. Designs service blueprints, conducts design research, creates AI art prompts (Midjourney, Runway, Stable Diffusion), and applies systems thinking to complex design challenges. Activates on \"service design\", \"design research\", \"systems thinking\", \"AI art\", \"innovation framework\".",
+  "category": "design",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "systems-thinking",
+    "service-design",
+    "design-research",
+    "generative-ai",
+    "innovation",
+    "ai-art",
+    "midjourney",
+    "strategic-design"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

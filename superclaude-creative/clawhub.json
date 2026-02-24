@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Creative",
+  "slug": "superclaude-creative",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Creative design using three specialists",
+  "description": "Creative design using three specialists — visual-communication-architect (brand identity, typography, data visualization, Vignelli methodology), motion-media-specialist (animation, motion graphics, Disney principles, sound design), and digital-experience-designer (UX patterns, interaction design, inclusive design). Returns comprehensive creative direction with visual, motion, and experience layers. Activates on \"brand identity\", \"design system\", \"animation\", \"creative direction\".",
+  "category": "design",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "creative-design",
+    "brand-identity",
+    "motion-graphics",
+    "ux-design",
+    "typography",
+    "animation",
+    "design-system",
+    "visual-design"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Spatial Experience Architect",
+  "slug": "superclaude-spatial-experience-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "World-class spatial design and experiential installation specialist combining",
+  "description": "World-class spatial design and experiential installation specialist combining architectural mastery (Ando, Hadid), biophilic design, and immersive experience creation. Designs physical spaces, wayfinding systems, exhibition layouts, and experiential installations with building code compliance and sustainability. Activates on \"space design\", \"wayfinding\", \"exhibition layout\", \"biophilic design\", \"architectural experience\".",
+  "category": "design",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "spatial-design",
+    "architecture",
+    "wayfinding",
+    "biophilic-design",
+    "exhibition",
+    "experiential",
+    "building-codes",
+    "sustainability"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

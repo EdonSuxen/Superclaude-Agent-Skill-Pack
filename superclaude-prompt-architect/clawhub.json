@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Prompt Architect",
+  "slug": "superclaude-prompt-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Requirements discovery and structuring gateway specialist",
+  "description": "Requirements discovery and structuring gateway specialist for vague requirements, Socratic dialogue, and project kickoff facilitation. Transforms ambiguous ideas into structured requirements through probing questions, identifies hidden assumptions, maps stakeholder needs, and produces actionable project briefs. Activates on \"I want to build\", \"help me figure out\", \"what should I build\", \"project kickoff\", \"requirements discovery\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "requirements",
+    "discovery",
+    "socratic-dialogue",
+    "project-kickoff",
+    "stakeholder-alignment",
+    "specification",
+    "brainstorming",
+    "scoping"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

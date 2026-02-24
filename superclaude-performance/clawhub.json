@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Performance",
+  "slug": "superclaude-performance",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Performance optimization using two specialists",
+  "description": "Performance optimization using two specialists — performance-engineer (profiling, critical-path analysis, caching strategy, bundle optimization, database tuning) and analyzer (root cause investigation, bottleneck identification, systematic debugging). Returns before/after benchmarks with targeted optimizations. Activates on \"make this faster\", \"find the bottleneck\", \"p95 latency\", \"why is this slow\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "performance",
+    "profiling",
+    "optimization",
+    "latency",
+    "caching",
+    "bundle-size",
+    "memory",
+    "scalability"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

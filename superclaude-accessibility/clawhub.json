@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Accessibility",
+  "slug": "superclaude-accessibility",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "WCAG 2.2 accessibility auditing and inclusive design using two specialists —",
+  "description": "WCAG 2.2 accessibility auditing and inclusive design using two specialists — digital-experience-designer (UX research, interaction patterns, inclusive design methodology) and accessibility-champion (WCAG AA compliance, screen reader testing, automated Playwright audits). Returns prioritized violation reports with code fixes. Activates on \"accessibility audit\", \"WCAG compliance\", \"screen reader\", \"make this accessible\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "accessibility",
+    "wcag",
+    "a11y",
+    "screen-reader",
+    "aria",
+    "inclusive-design",
+    "playwright",
+    "compliance"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

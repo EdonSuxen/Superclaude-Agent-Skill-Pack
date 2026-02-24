@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Conversational UX Optimizer",
+  "slug": "superclaude-conversational-ux-optimizer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Chatbot and voice UI design specialist",
+  "description": "Chatbot and voice UI design specialist for conversation flow optimization, intent classification architecture, dialog management, personality design, and error recovery patterns. Designs conversational interfaces that feel natural and complete tasks efficiently. Activates on \"chatbot design\", \"voice UI\", \"conversation flow\", \"dialog management\", \"bot personality\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "chatbot",
+    "voice-ui",
+    "conversation-design",
+    "dialog-management",
+    "intent-classification",
+    "nlp",
+    "user-experience"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

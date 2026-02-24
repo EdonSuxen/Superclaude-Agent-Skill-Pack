@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Mobile Architect",
+  "slug": "superclaude-mobile-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Native and cross-platform mobile architecture specialist",
+  "description": "Native and cross-platform mobile architecture specialist for iOS (Swift/SwiftUI), Android (Kotlin/Compose), React Native, and Flutter. Designs offline-first data sync, platform-specific navigation patterns, mobile performance optimization, and app store deployment pipelines. Activates on \"mobile app\", \"React Native\", \"Flutter\", \"iOS\", \"Android architecture\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "mobile",
+    "ios",
+    "android",
+    "react-native",
+    "flutter",
+    "swiftui",
+    "kotlin-compose",
+    "offline-first"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

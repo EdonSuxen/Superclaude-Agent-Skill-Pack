@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Webassembly Specialist",
+  "slug": "superclaude-webassembly-specialist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "WebAssembly and cross-platform specialist",
+  "description": "WebAssembly and cross-platform specialist for WASM/WASI applications, browser performance optimization, Rust/C++ to WASM compilation, and edge computing deployment. Designs WASM module architectures, optimizes binary size, implements JS-WASM interop, and deploys WASM at the edge (Cloudflare Workers, Fastly Compute). Activates on \"WebAssembly\", \"WASM\", \"WASI\", \"wasm-bindgen\", \"WASM optimization\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "webassembly",
+    "wasm",
+    "wasi",
+    "rust-wasm",
+    "browser-performance",
+    "edge-computing",
+    "wasm-bindgen",
+    "cross-platform"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

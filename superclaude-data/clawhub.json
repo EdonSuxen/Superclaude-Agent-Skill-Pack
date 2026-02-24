@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Data",
+  "slug": "superclaude-data",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Data analytics and pipeline engineering using two specialists",
+  "description": "Data analytics and pipeline engineering using two specialists — data-analyst-expert (SQL analytics, statistical analysis, KPI dashboards, business intelligence) and data-pipeline-engineer (ETL/ELT orchestration, Airflow/dbt, data quality, streaming pipelines). Returns analytical insights with the infrastructure to automate them. Activates on \"analyze this data\", \"build a dashboard\", \"data pipeline\", \"ETL workflow\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "data-analytics",
+    "etl",
+    "sql",
+    "dbt",
+    "airflow",
+    "business-intelligence",
+    "data-pipeline",
+    "visualization"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

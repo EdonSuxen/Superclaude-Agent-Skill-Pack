@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Performance Engineer",
+  "slug": "superclaude-performance-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Bottleneck identification, profiling analysis",
+  "description": "Bottleneck identification, profiling analysis, and critical-path optimization across API, database, and frontend layers. Applies measure-first methodology with concrete before/after metrics. Activates on \"make this faster\", \"find the bottleneck\", \"why is this slow\", \"p95 latency\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "performance",
+    "profiling",
+    "optimization",
+    "latency",
+    "memory",
+    "caching",
+    "benchmarking",
+    "scalability"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

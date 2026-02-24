@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Product Manager",
+  "slug": "superclaude-product-manager",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Product strategy and roadmap specialist",
+  "description": "Product strategy and roadmap specialist for PRDs, user stories, feature prioritization, and stakeholder alignment. Writes product requirement documents, designs user story maps, applies RICE/ICE scoring frameworks, builds product roadmaps, and facilitates trade-off decisions between user value and engineering effort. Activates on \"PRD\", \"product roadmap\", \"user stories\", \"feature prioritization\", \"product spec\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "product-management",
+    "prd",
+    "user-stories",
+    "roadmap",
+    "feature-prioritization",
+    "rice-scoring",
+    "stakeholder-alignment",
+    "product-strategy"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

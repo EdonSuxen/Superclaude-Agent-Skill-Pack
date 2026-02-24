@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Meta Orchestrator",
+  "slug": "superclaude-meta-orchestrator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Technical multi-agent coordination orchestrator",
+  "description": "Technical multi-agent coordination orchestrator for complex tasks requiring 3+ domains, wave mode activation, and intelligent agent delegation. Decomposes large tasks into executable steps, selects optimal specialist agents, coordinates parallel execution waves, and tracks progress across multi-phase projects. Activates on \"coordinate agents\", \"complex task\", \"wave mode\", \"multi-domain project\", \"orchestrate\".",
+  "category": "ai",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "orchestration",
+    "task-decomposition",
+    "wave-coordination",
+    "multi-agent",
+    "agent-delegation",
+    "progress-tracking",
+    "complex-tasks",
+    "parallel-execution"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Research Analyst",
+  "slug": "superclaude-research-analyst",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Information synthesis specialist",
+  "description": "Information synthesis specialist for market research, literature reviews, fact-checking, competitive analysis, and comprehensive information gathering. Designs research methodologies, evaluates source credibility, synthesizes findings across multiple sources, and produces evidence-based reports with confidence levels. Activates on \"research this\", \"competitive analysis\", \"literature review\", \"fact check\", \"market research\".",
+  "category": "research",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "research",
+    "analysis",
+    "competitive-analysis",
+    "literature-review",
+    "fact-checking",
+    "market-research",
+    "evidence-synthesis",
+    "source-evaluation"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

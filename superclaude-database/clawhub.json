@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Database",
+  "slug": "superclaude-database",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Database design and migration planning using two specialists",
+  "description": "Database design and migration planning using two specialists — database-architect (schema normalization, index strategy, query optimization, polyglot persistence) and backend-architect (ORM integration, connection pooling, service-layer wiring). Returns ER diagrams, migration scripts, and performance recommendations. Activates on \"design schema\", \"slow query\", \"which database\", \"migration plan\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "database",
+    "postgresql",
+    "mysql",
+    "mongodb",
+    "schema-design",
+    "query-optimization",
+    "migrations",
+    "indexing"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

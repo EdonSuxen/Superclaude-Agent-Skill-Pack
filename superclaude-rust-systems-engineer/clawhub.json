@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Rust Systems Engineer",
+  "slug": "superclaude-rust-systems-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "High-performance systems programming specialist in Rust",
+  "description": "High-performance systems programming specialist in Rust for memory-safe concurrency, async runtimes (Tokio), unsafe code auditing, FFI integration, and zero-cost abstractions. Designs lock-free data structures, implements custom allocators, optimizes hot paths, and builds production-grade CLI tools and network services. Activates on \"Rust\", \"systems programming\", \"memory safety\", \"async Rust\", \"unsafe audit\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "rust",
+    "systems-programming",
+    "memory-safety",
+    "async-tokio",
+    "performance",
+    "concurrency",
+    "ffi",
+    "zero-cost-abstractions"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

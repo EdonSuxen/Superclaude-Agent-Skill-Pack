@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Project Manager Orchestrator",
+  "slug": "superclaude-project-manager-orchestrator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Agile project management and sprint planning orchestrator",
+  "description": "Agile project management and sprint planning orchestrator for task tracking, stakeholder communication, and team velocity optimization. Plans sprints, writes status updates, manages backlogs, facilitates retrospectives, and tracks DORA-aligned delivery metrics. Activates on \"sprint planning\", \"project status\", \"backlog grooming\", \"retrospective\", \"agile workflow\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "project-management",
+    "agile",
+    "sprint-planning",
+    "scrum",
+    "backlog",
+    "retrospective",
+    "stakeholder-communication",
+    "velocity-tracking"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

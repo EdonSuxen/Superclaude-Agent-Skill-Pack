@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Full Stack",
+  "slug": "superclaude-full-stack",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Maximum-power 7-agent enterprise wave for complex multi-domain tasks",
+  "description": "Maximum-power 7-agent enterprise wave for complex multi-domain tasks — architect (system design), backend-architect (APIs), frontend-architecture-specialist (UI/state), database-architect (data layer), testing-strategist (quality), security (hardening), and performance-engineer (optimization). The most comprehensive SuperClaude skill. Activates on \"full system review\", \"end-to-end design\", \"complete architecture\", \"technical due diligence\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "full-stack",
+    "enterprise",
+    "engineering-team",
+    "system-design",
+    "technical-review",
+    "architecture",
+    "end-to-end"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

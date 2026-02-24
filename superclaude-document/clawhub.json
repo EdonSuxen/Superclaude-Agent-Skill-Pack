@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Document",
+  "slug": "superclaude-document",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Document processing and technical writing using two specialists",
+  "description": "Document processing and technical writing using two specialists — document-intelligence-expert (OCR, NLP, contract analysis, knowledge extraction from PDF/DOCX) and scribe (technical writing, READMEs, API docs, user guides). Extracts knowledge from existing documents and produces audience-ready documentation. Activates on \"write documentation\", \"analyze this document\", \"extract from PDF\", \"README for this project\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "documentation",
+    "technical-writing",
+    "knowledge-extraction",
+    "pdf",
+    "readme",
+    "api-docs",
+    "user-guide",
+    "nlp"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

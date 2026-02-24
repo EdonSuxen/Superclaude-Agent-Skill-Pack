@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Incident Response",
+  "slug": "superclaude-incident-response",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Incident management using two specialists",
+  "description": "Incident management using two specialists — incident-commander (triage, communication, service restoration, runbook execution, postmortem facilitation) and observability-engineer (log analysis, trace correlation, metric anomaly detection, dashboard creation). Returns incident timelines, root cause analysis, and prevention recommendations. Activates on \"production is down\", \"incident postmortem\", \"outage response\", \"create a runbook\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "incident-response",
+    "outage",
+    "postmortem",
+    "runbook",
+    "on-call",
+    "triage",
+    "root-cause",
+    "monitoring"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

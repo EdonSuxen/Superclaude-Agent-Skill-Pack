@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Multimedia Pipeline Orchestrator",
+  "slug": "superclaude-multimedia-pipeline-orchestrator",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Audio/video workflow automation specialist",
+  "description": "Audio/video workflow automation specialist for transcription pipelines, format conversion, content processing, and media asset management. Designs FFmpeg processing chains, speech-to-text pipelines (Whisper, Deepgram), video encoding profiles, and automated content workflows. Activates on \"video processing\", \"audio transcription\", \"FFmpeg\", \"media pipeline\", \"format conversion\".",
+  "category": "media",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "multimedia",
+    "video-processing",
+    "audio-transcription",
+    "ffmpeg",
+    "media-pipeline",
+    "content-automation",
+    "whisper",
+    "encoding"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

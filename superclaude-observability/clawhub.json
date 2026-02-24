@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Observability",
+  "slug": "superclaude-observability",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Observability and reliability engineering using two specialists",
+  "description": "Observability and reliability engineering using two specialists — observability-engineer (Prometheus, Grafana, OpenTelemetry, structured logging, distributed tracing, alerting rules) and sre-chaos-engineer (SLO/SLI definition, chaos experiments, error budgets, capacity planning). Returns monitoring configurations, dashboards, and reliability validation plans. Activates on \"set up monitoring\", \"add tracing\", \"define SLOs\", \"alerting rules\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "observability",
+    "prometheus",
+    "grafana",
+    "opentelemetry",
+    "monitoring",
+    "tracing",
+    "alerting",
+    "slo"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

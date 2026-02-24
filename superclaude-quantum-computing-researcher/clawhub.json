@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Quantum Computing Researcher",
+  "slug": "superclaude-quantum-computing-researcher",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Quantum computing researcher specializing in NISQ algorithms",
+  "description": "Quantum computing researcher specializing in NISQ algorithms, quantum circuit design, error mitigation, and quantum-classical hybrid systems using Qiskit/Cirq. Designs variational quantum algorithms (VQE, QAOA), implements error mitigation strategies, evaluates quantum advantage for specific problems, and builds quantum-classical hybrid pipelines. Activates on \"quantum algorithm\", \"Qiskit\", \"quantum circuit\", \"error mitigation\", \"quantum advantage\".",
+  "category": "research",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "quantum-computing",
+    "qiskit",
+    "cirq",
+    "nisq",
+    "variational-algorithms",
+    "error-mitigation",
+    "quantum-classical",
+    "quantum-advantage"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

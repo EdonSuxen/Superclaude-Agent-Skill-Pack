@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Event Driven",
+  "slug": "superclaude-event-driven",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Event-driven architecture using two specialists",
+  "description": "Event-driven architecture using two specialists — event-driven-architect (Kafka, RabbitMQ, event sourcing, CQRS, saga patterns, message schema design) and backend-architect (consumer implementation, idempotency, dead letter queues, transaction boundaries). Returns event schemas, topology designs, and reliable consumer implementations. Activates on \"event sourcing\", \"Kafka setup\", \"CQRS\", \"message queue architecture\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "event-driven",
+    "kafka",
+    "rabbitmq",
+    "cqrs",
+    "event-sourcing",
+    "saga",
+    "message-queue",
+    "async"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

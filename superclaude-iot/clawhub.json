@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude IoT",
+  "slug": "superclaude-iot",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "IoT and embedded systems using two specialists",
+  "description": "IoT and embedded systems using two specialists — edge-computing-specialist (edge architectures, MQTT/CoAP protocols, real-time processing, offline-first patterns, 5G MEC) and embedded-systems-engineer (RTOS, bare-metal C/C++/Rust, hardware interfacing, power optimization). Returns system architectures, firmware designs, and communication protocols. Activates on \"IoT architecture\", \"embedded firmware\", \"edge processing\", \"sensor network\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "iot",
+    "edge-computing",
+    "embedded",
+    "mqtt",
+    "rtos",
+    "firmware",
+    "sensor",
+    "real-time"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

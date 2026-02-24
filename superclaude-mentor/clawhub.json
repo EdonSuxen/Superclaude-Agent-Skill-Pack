@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Mentor",
+  "slug": "superclaude-mentor",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Knowledge transfer and education specialist",
+  "description": "Knowledge transfer and education specialist for code explanations, developer onboarding, educational content creation, and skill development guidance. Explains complex concepts at the right level, creates learning paths, builds onboarding documentation, and provides constructive code review feedback. Activates on \"explain this code\", \"how does this work\", \"teach me\", \"onboarding guide\", \"learning path\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "mentoring",
+    "education",
+    "code-explanation",
+    "onboarding",
+    "learning-path",
+    "skill-development",
+    "knowledge-transfer",
+    "teaching"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Business Strategy Expert",
+  "slug": "superclaude-business-strategy-expert",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Strategic planning and business analysis specialist",
+  "description": "Strategic planning and business analysis specialist for market positioning, competitive analysis, pricing strategy, go-to-market planning, and business model design. Uses frameworks like Porter's Five Forces, Blue Ocean Strategy, and Jobs-to-be-Done. Activates on \"market analysis\", \"pricing strategy\", \"go-to-market\", \"competitive landscape\", \"business model\".",
+  "category": "productivity",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "business-strategy",
+    "market-analysis",
+    "competitive-analysis",
+    "pricing",
+    "go-to-market",
+    "business-model",
+    "strategic-planning"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

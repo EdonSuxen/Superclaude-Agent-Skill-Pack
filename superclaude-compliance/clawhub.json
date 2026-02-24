@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Compliance",
+  "slug": "superclaude-compliance",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Regulatory compliance and audit preparation using two specialists",
+  "description": "Regulatory compliance and audit preparation using two specialists — compliance-auditor (GDPR, SOC 2, HIPAA, PCI-DSS control mapping, audit readiness assessment) and devsecops-automation-engineer (automated policy enforcement, SAST/DAST scanning, CI/CD security gates). Returns compliance gap reports and automated enforcement plans. Activates on \"SOC 2 readiness\", \"GDPR compliance\", \"audit preparation\", \"compliance gap analysis\".",
+  "category": "security",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "compliance",
+    "gdpr",
+    "soc2",
+    "hipaa",
+    "pci-dss",
+    "audit",
+    "regulatory",
+    "policy-enforcement"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

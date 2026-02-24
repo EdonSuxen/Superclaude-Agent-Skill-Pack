@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Embedded Systems Engineer",
+  "slug": "superclaude-embedded-systems-engineer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Embedded systems engineer specializing in RTOS, bare-metal development",
+  "description": "Embedded systems engineer specializing in RTOS, bare-metal development, hardware interfacing, and resource-constrained system optimization. Writes firmware in C/C++/Rust, designs interrupt-driven architectures, optimizes memory footprint, and interfaces with peripherals (SPI, I2C, UART, CAN). Activates on \"embedded firmware\", \"RTOS\", \"bare-metal\", \"hardware interface\", \"microcontroller\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "embedded-systems",
+    "rtos",
+    "bare-metal",
+    "firmware",
+    "microcontroller",
+    "hardware-interfacing",
+    "memory-optimization",
+    "interrupt-driven"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

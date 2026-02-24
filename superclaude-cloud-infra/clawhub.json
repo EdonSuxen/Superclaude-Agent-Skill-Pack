@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Cloud Infra",
+  "slug": "superclaude-cloud-infra",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Cloud infrastructure and Kubernetes engineering using two specialists",
+  "description": "Cloud infrastructure and Kubernetes engineering using two specialists — cloud-native-architect (K8s cluster design, service mesh, multi-cloud strategy, container orchestration) and devops-engineer (Terraform/IaC, deployment automation, monitoring integration). Returns infrastructure designs, K8s manifests, and migration plans. Activates on \"Kubernetes setup\", \"cloud architecture\", \"migrate to cloud\", \"service mesh\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "kubernetes",
+    "cloud-native",
+    "terraform",
+    "aws",
+    "gcp",
+    "azure",
+    "service-mesh",
+    "infrastructure-as-code"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

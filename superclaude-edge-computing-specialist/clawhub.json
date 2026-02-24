@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Edge Computing Specialist",
+  "slug": "superclaude-edge-computing-specialist",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Edge computing and IoT specialist focused on ultra-low latency systems",
+  "description": "Edge computing and IoT specialist focused on ultra-low latency systems, real-time processing, and distributed edge architectures with offline-first resilience. Designs edge deployment topologies, IoT protocol selection (MQTT, CoAP), 5G MEC integration, and edge AI inference optimization. Activates on \"edge computing\", \"IoT architecture\", \"5G MEC\", \"edge AI\", \"offline-first\".",
+  "category": "cloud",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "edge-computing",
+    "iot",
+    "mqtt",
+    "low-latency",
+    "5g-mec",
+    "edge-ai",
+    "offline-first",
+    "real-time"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Refactorer",
+  "slug": "superclaude-refactorer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Code quality and technical debt management specialist",
+  "description": "Code quality and technical debt management specialist for systematic refactoring, maintainability improvements, and code cleanup. Identifies SOLID violations, reduces cyclomatic complexity, extracts reusable abstractions, renames for clarity, and removes dead code — all while preserving existing behavior with test verification. Activates on \"refactor\", \"tech debt\", \"code cleanup\", \"maintainability\", \"SOLID violations\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "refactoring",
+    "tech-debt",
+    "code-quality",
+    "maintainability",
+    "solid-principles",
+    "clean-code",
+    "complexity-reduction",
+    "dead-code"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

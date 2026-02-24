@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Security",
+  "slug": "superclaude-security",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Threat modeling and vulnerability assessment using STRIDE methodology and OWASP",
+  "description": "Threat modeling and vulnerability assessment using STRIDE methodology and OWASP Top 10 analysis. Identifies attack vectors, evaluates risk, and produces prioritized remediation plans. Activates on \"is this secure\", \"find vulnerabilities\", \"threat model\", \"security review before launch\".",
+  "category": "security",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "security",
+    "owasp",
+    "threat-modeling",
+    "vulnerability",
+    "stride",
+    "penetration-testing",
+    "code-review",
+    "risk-assessment"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

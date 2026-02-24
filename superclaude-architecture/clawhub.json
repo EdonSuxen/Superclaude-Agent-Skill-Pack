@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Architecture",
+  "slug": "superclaude-architecture",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Architecture review and system design using three SuperClaude expert architects",
+  "description": "Architecture review and system design using three SuperClaude expert architects in a coordinated wave — architect (holistic system design and ADRs), backend-architect (reliability, scalability, and server-side patterns), and api-architect (API contracts, versioning, and developer experience). Returns a structured design recommendation with trade-off analysis.",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "architecture",
+    "system-design",
+    "adr",
+    "scalability",
+    "microservices",
+    "trade-off-analysis",
+    "api-design"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

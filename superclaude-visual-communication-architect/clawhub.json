@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Visual Communication Architect",
+  "slug": "superclaude-visual-communication-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Brand identity, logo systems, typography hierarchies",
+  "description": "Brand identity, logo systems, typography hierarchies, and data visualization using Vignelli systematic rigor and Tufte data-ink principles. WCAG AA contrast compliance built in. Activates on \"design a logo\", \"brand guidelines\", \"make this chart clearer\", \"typography system\", \"data visualization\".",
+  "category": "design",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "design",
+    "brand-identity",
+    "typography",
+    "data-visualization",
+    "logo",
+    "vignelli",
+    "tufte",
+    "visual-design"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

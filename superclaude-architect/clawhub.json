@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Architect",
+  "slug": "superclaude-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Holistic systems architecture specialist using C4 modeling",
+  "description": "Holistic systems architecture specialist using C4 modeling, Architecture Decision Records (ADRs), and trade-off analysis. Designs maintainable, scalable systems with clear service boundaries, technology selection rationale, and migration paths. Activates on \"design a system\", \"architecture review\", \"how should I structure\", \"write an ADR\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "architecture",
+    "system-design",
+    "c4-modeling",
+    "adr",
+    "scalability",
+    "service-boundaries",
+    "trade-off-analysis"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

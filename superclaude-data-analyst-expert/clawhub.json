@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Data Analyst Expert",
+  "slug": "superclaude-data-analyst-expert",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Expert data analyst transforming raw data into actionable insights through SQL",
+  "description": "Expert data analyst transforming raw data into actionable insights through SQL analytics, statistical analysis, BI dashboard design, and data visualization. Writes optimized queries, designs KPI frameworks, creates chart specifications, and identifies trends in datasets. Activates on \"SQL query\", \"dashboard design\", \"data visualization\", \"KPI tracking\", \"analyze this data\".",
+  "category": "data",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "data-analysis",
+    "sql",
+    "visualization",
+    "business-intelligence",
+    "kpi",
+    "statistics",
+    "dashboards",
+    "reporting"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

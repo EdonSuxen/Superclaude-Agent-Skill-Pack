@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Localization Internationalization Expert",
+  "slug": "superclaude-localization-internationalization-expert",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Localization and internationalization expert specializing in i18n/l10n",
+  "description": "Localization and internationalization expert specializing in i18n/l10n architecture, RTL support, cultural adaptation, and global software delivery using ICU/CLDR standards. Designs translation workflows, implements locale-aware formatting (dates, numbers, currencies), configures RTL layouts, and builds pluralization systems. Activates on \"internationalization\", \"localization\", \"RTL support\", \"translation workflow\", \"i18n\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "internationalization",
+    "localization",
+    "i18n",
+    "l10n",
+    "rtl-support",
+    "icu-cldr",
+    "translation",
+    "cultural-adaptation"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

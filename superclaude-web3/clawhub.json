@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Web3",
+  "slug": "superclaude-web3",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Blockchain and decentralized application development using SuperClaude's",
+  "description": "Blockchain and decentralized application development using SuperClaude's blockchain-web3-specialist — smart contract development (Solidity, Rust), DeFi protocol design, NFT systems, DAO governance, security auditing for on-chain code, and gas optimization. Returns security-first implementations with formal verification recommendations. Activates on \"smart contract\", \"DeFi protocol\", \"NFT\", \"DAO governance\", \"gas optimization\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "blockchain",
+    "smart-contracts",
+    "defi",
+    "web3",
+    "solidity",
+    "ethereum",
+    "nft",
+    "dao-governance"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

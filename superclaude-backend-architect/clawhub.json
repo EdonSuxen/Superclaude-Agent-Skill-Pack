@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Backend Architect",
+  "slug": "superclaude-backend-architect",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Server-side architecture, microservices design, API patterns",
+  "description": "Server-side architecture, microservices design, API patterns, and reliability engineering. Applies reliability-first principles with circuit breakers, retries, and graceful degradation. Activates on \"design this API\", \"microservices vs monolith\", \"backend architecture\", \"handle load spikes\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "backend",
+    "microservices",
+    "api",
+    "nodejs",
+    "reliability",
+    "event-driven",
+    "scalability",
+    "architecture"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for multi-agent orchestration. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Authentication token for the bridge server. Prevents unauthorized agent execution."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "SuperClaude Analyzer",
+  "slug": "superclaude-analyzer",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Evidence-based root cause investigation specialist",
+  "description": "Evidence-based root cause investigation specialist for debugging, systematic troubleshooting, and pattern recognition. Traces evidence chains from symptoms to causes, never assumes — always verifies. Classifies failures by type (assertion, import, syntax, runtime) and maps contributing factors. Activates on \"why is this broken\", \"investigate this bug\", \"find the root cause\", \"what changed\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "analysis",
+    "debugging",
+    "root-cause",
+    "investigation",
+    "pattern-recognition",
+    "troubleshooting",
+    "evidence-based"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}

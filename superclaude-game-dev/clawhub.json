@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Game Dev",
+  "slug": "superclaude-game-dev",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Game development using two specialists",
+  "description": "Game development using two specialists — game-development-specialist (Unity/Unreal, gameplay systems, physics, multiplayer networking, 60+ FPS optimization) and motion-media-specialist (character animation, particle effects, Disney principles, sound design). Returns game architecture designs, shader code, and animation specifications. Activates on \"game mechanic\", \"Unity setup\", \"multiplayer networking\", \"game performance\".",
+  "category": "developer-tools",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "game-development",
+    "unity",
+    "unreal-engine",
+    "gameplay",
+    "multiplayer",
+    "physics",
+    "animation",
+    "shader"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server that orchestrates multi-agent wave execution. Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret between OpenClaw and the bridge server. Prevents unauthorized agent execution."
+  }
+}
