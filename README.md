@@ -1,12 +1,12 @@
 <p align="center">
   <strong>Superclaude Agent Skill Pack</strong><br>
-  <em>92 multi-agent skills for <a href="https://docs.openclaw.ai">OpenClaw</a> / <a href="https://clawhub.ai">ClawHub</a></em>
+  <em>93 multi-agent skills for <a href="https://docs.openclaw.ai">OpenClaw</a> / <a href="https://clawhub.ai">ClawHub</a></em>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/skills-92-7c3aed?style=flat-square" alt="92 skills">
+  <img src="https://img.shields.io/badge/skills-93-7c3aed?style=flat-square" alt="92 skills">
   <img src="https://img.shields.io/badge/agents-56-6366f1?style=flat-square" alt="56 agents">
-  <img src="https://img.shields.io/badge/domain_packs-38-8b5cf6?style=flat-square" alt="38 domain packs">
+  <img src="https://img.shields.io/badge/domain_packs-39-8b5cf6?style=flat-square" alt="38 domain packs">
   <img src="https://img.shields.io/badge/license-MIT-22c55e?style=flat-square" alt="MIT">
   <img src="https://img.shields.io/badge/pricing-free-10b981?style=flat-square" alt="Free">
   <img src="https://img.shields.io/badge/v1.0.0-stable-0ea5e9?style=flat-square" alt="v1.0.0">
@@ -53,7 +53,7 @@ clawhub install superclaude-architecture
 | 🎨 | Design | 8 | [View](#-design-8) |
 | 📋 | Productivity | 7 | [View](#-productivity-7) |
 | 📊 | Data | 6 | [View](#-data-6) |
-| 🤖 | AI & ML | 5 | [View](#-ai--ml-5) |
+| 🤖 | AI & ML | 6 | [View](#-ai--ml-6) |
 | 🔒 | Security | 5 | [View](#-security-5) |
 | 🔬 | Research | 3 | [View](#-research-3) |
 | 🎬 | Media | 2 | [View](#-media-2) |
@@ -370,7 +370,7 @@ clawhub install superclaude-database
 
 ---
 
-## 🤖 AI & ML (5)
+## 🤖 AI & ML (6)
 
 <details>
 <summary><strong>Domain Packs</strong></summary>
@@ -385,6 +385,10 @@ clawhub install superclaude-ai
 **SuperClaude ML Ops** — MLOps and feature engineering using two specialists.
 ```
 clawhub install superclaude-ml-ops
+n**SuperClaude Self-Improving** — Continuous learning with semantic pattern detection, error capture via hooks, and automatic knowledge promotion.
+```
+clawhub install superclaude-self-improving
+```
 ```
 
 </details>

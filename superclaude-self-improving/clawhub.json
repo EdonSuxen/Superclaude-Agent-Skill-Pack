@@ -1,0 +1,28 @@
+{
+  "name": "SuperClaude Self-Improving Agent",
+  "slug": "superclaude-self-improving",
+  "version": "1.0.0",
+  "license": "MIT",
+  "pricing": "free",
+  "tagline": "Continuous learning with semantic pattern detection and automatic knowledge promotion",
+  "description": "Hybrid self-improvement system that captures errors, corrections, and knowledge gaps in real-time via hooks, then evolves project intelligence through TF-IDF semantic retrieval, decay-weighted memory, and automatic pattern promotion. Local hooks work offline at zero cost. Bridge mode enables deep analysis with anti-pattern detection and cross-session learning.",
+  "category": "ai-ml",
+  "tags": [
+    "superclaude",
+    "claude-code",
+    "self-improving",
+    "learnings",
+    "memory",
+    "continuous-improvement",
+    "hooks",
+    "error-capture",
+    "pattern-detection",
+    "knowledge-management"
+  ],
+  "homepage": "https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack",
+  "screenshots": [],
+  "permissionJustification": {
+    "SUPERCLAUDE_BRIDGE_URL": "URL of the SuperClaude bridge server for deep pattern analysis (optional — local hooks work without it). Set to your self-hosted bridge URL.",
+    "SUPERCLAUDE_BRIDGE_TOKEN": "Shared authentication secret for bridge access (optional — only needed for bridge mode deep analysis)."
+  }
+}
