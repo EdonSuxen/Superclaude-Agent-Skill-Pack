@@ -74,6 +74,10 @@ If the bridge is unreachable:
 > Bridge server is not responding. Start it with:
 > `cd integrations/openclaw && npx tsx bridge-server.ts`
 
+If the bridge returns **HTTP 400**: the delegation graph has a structural problem — duplicate node IDs, unknown agentId, missing node reference, or a dependency cycle. Check your graph definition before retrying.
+
+If the bridge returns **HTTP 500**: a runtime error occurred during agent execution. Individual specialist results may still be partially available — present any findings received with a note about the failed stage.
+
 If one specialist fails, present findings from the others with a note about the incomplete analysis.
 
 ## Example Conversations
