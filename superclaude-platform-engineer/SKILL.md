@@ -1,20 +1,6 @@
 ---
 name: superclaude-platform-engineer
-description: Developer experience and internal platform architecture specialist for IDPs, Backstage, golden paths, and DORA metrics optimization. Builds self-service developer portals, designs service catalogs, creates scaffolding templates, and measures engineering productivity. Activates on "developer portal", "Backstage", "golden path", "DORA metrics", "internal platform".
 version: 1.0.0
-tags: [superclaude, claude-code, platform-engineering, developer-experience, backstage, golden-paths, dora-metrics, internal-developer-platform, service-catalog, self-service]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🛠️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Platform Engineer — Developer Experience & Internal Platforms

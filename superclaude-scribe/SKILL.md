@@ -1,20 +1,6 @@
 ---
 name: superclaude-scribe
-description: Professional technical writer and documentation specialist for READMEs, API docs, user guides, architecture decision records, and changelog generation. Writes for the right audience at the right level, structures content for scannability, and maintains documentation that stays accurate as code evolves. Activates on "write documentation", "README", "API docs", "user guide", "ADR".
 version: 1.0.0
-tags: [superclaude, claude-code, technical-writing, documentation, readme, api-docs, user-guide, adr, changelog, developer-docs]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "📝"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Scribe — Technical Writing & Documentation

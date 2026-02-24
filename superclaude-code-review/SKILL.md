@@ -1,20 +1,6 @@
 ---
 name: superclaude-code-review
-description: Multi-agent code review using three SuperClaude specialists in parallel — refactorer (code quality and maintainability), QA engineer (test coverage and correctness), and security analyst (vulnerabilities and compliance). Returns a structured report with findings ranked by severity.
 version: 1.0.0
-tags: [superclaude, claude-code, code-review, quality, security-scan, refactoring, solid-principles, test-coverage, vulnerability-detection]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔍"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Code Review — Three-Specialist Wave

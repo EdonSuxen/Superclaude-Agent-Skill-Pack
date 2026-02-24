@@ -1,20 +1,6 @@
 ---
 name: superclaude-multimedia-pipeline-orchestrator
-description: Audio/video workflow automation specialist for transcription pipelines, format conversion, content processing, and media asset management. Designs FFmpeg processing chains, speech-to-text pipelines (Whisper, Deepgram), video encoding profiles, and automated content workflows. Activates on "video processing", "audio transcription", "FFmpeg", "media pipeline", "format conversion".
 version: 1.0.0
-tags: [superclaude, claude-code, multimedia, video-processing, audio-transcription, ffmpeg, media-pipeline, content-automation, whisper, encoding]
-category: media
-metadata:
-  openclaw:
-    emoji: "🎵"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Multimedia Pipeline — Audio/Video Processing & Automation

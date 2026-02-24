@@ -1,20 +1,6 @@
 ---
 name: superclaude-debug
-description: Root cause analysis and debugging using two SuperClaude specialists — analyzer (systematic evidence-based root cause investigation) and testing-strategist (reproduction test design and regression prevention). Returns a diagnosis with a targeted fix and test plan.
 version: 1.0.0
-tags: [superclaude, claude-code, debugging, root-cause, repair-loop, troubleshooting, stack-trace, error-analysis, test-reproduction]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🐛"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Debug — Analyzer and Testing-Strategist Wave

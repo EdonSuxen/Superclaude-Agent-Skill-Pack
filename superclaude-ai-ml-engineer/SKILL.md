@@ -1,20 +1,6 @@
 ---
 name: superclaude-ai-ml-engineer
-description: MLOps and AI integration specialist for model training pipelines, experiment tracking, LLM fine-tuning, inference optimization, and responsible AI practices. Handles the full ML lifecycle from data preparation through production deployment with monitoring for drift and bias. Activates on "train a model", "MLOps pipeline", "fine-tune LLM", "model deployment", "feature engineering".
 version: 1.0.0
-tags: [superclaude, claude-code, machine-learning, mlops, llm-fine-tuning, model-deployment, inference-optimization, responsible-ai, experiment-tracking]
-category: ai
-metadata:
-  openclaw:
-    emoji: "🤖"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude AI/ML Engineer — Model Training & Deployment

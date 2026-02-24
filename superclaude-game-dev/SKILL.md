@@ -1,20 +1,6 @@
 ---
 name: superclaude-game-dev
-description: Game development using two specialists — game-development-specialist (Unity/Unreal, gameplay systems, physics, multiplayer networking, 60+ FPS optimization) and motion-media-specialist (character animation, particle effects, Disney principles, sound design). Returns game architecture designs, shader code, and animation specifications. Activates on "game mechanic", "Unity setup", "multiplayer networking", "game performance".
 version: 1.0.0
-tags: [superclaude, claude-code, game-development, unity, unreal-engine, gameplay, multiplayer, physics, animation, shader]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🎮"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Game Dev — Engine Architecture & Animation Design

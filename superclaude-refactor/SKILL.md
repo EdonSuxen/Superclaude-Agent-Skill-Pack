@@ -1,20 +1,6 @@
 ---
 name: superclaude-refactor
-description: Evidence-based code quality improvement using two specialists — refactorer (tech debt reduction, complexity analysis, SOLID violations, naming clarity, dead code removal) and analyzer (root cause investigation, pattern detection, dependency mapping). Returns prioritized refactoring plans with before/after examples and risk assessment. Activates on "reduce tech debt", "clean up this code", "simplify this module", "refactor for maintainability".
 version: 1.0.0
-tags: [superclaude, claude-code, refactoring, tech-debt, code-quality, maintainability, clean-code, solid-principles, complexity-reduction]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔧"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Refactor — Evidence-Based Code Quality

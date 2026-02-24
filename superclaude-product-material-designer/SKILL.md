@@ -1,20 +1,6 @@
 ---
 name: superclaude-product-material-designer
-description: World-class physical product and material design specialist combining industrial design mastery (Dieter Rams), fashion innovation (Miyake), and sustainable material expertise. Designs consumer products, furniture, packaging, and fashion with emphasis on function, sustainability, and manufacturing feasibility. Activates on "product design", "industrial design", "material selection", "fashion design", "furniture design".
 version: 1.0.0
-tags: [superclaude, claude-code, industrial-design, product-design, material-science, sustainable-design, furniture, fashion, packaging, manufacturing]
-category: design
-metadata:
-  openclaw:
-    emoji: "📦"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Product & Material Designer — Industrial Design & Sustainability

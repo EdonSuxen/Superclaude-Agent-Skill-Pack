@@ -1,20 +1,6 @@
 ---
 name: superclaude-accessibility
-description: WCAG 2.2 accessibility auditing and inclusive design using two specialists — digital-experience-designer (UX research, interaction patterns, inclusive design methodology) and accessibility-champion (WCAG AA compliance, screen reader testing, automated Playwright audits). Returns prioritized violation reports with code fixes. Activates on "accessibility audit", "WCAG compliance", "screen reader", "make this accessible".
 version: 1.0.0
-tags: [superclaude, claude-code, accessibility, wcag, a11y, screen-reader, aria, inclusive-design, playwright, compliance]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "♿"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Accessibility — WCAG 2.2 Compliance & Inclusive Design

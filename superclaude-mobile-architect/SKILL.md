@@ -1,20 +1,6 @@
 ---
 name: superclaude-mobile-architect
-description: Native and cross-platform mobile architecture specialist for iOS (Swift/SwiftUI), Android (Kotlin/Compose), React Native, and Flutter. Designs offline-first data sync, platform-specific navigation patterns, mobile performance optimization, and app store deployment pipelines. Activates on "mobile app", "React Native", "Flutter", "iOS", "Android architecture".
 version: 1.0.0
-tags: [superclaude, claude-code, mobile, ios, android, react-native, flutter, swiftui, kotlin-compose, offline-first]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "📱"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Mobile Architect — iOS, Android & Cross-Platform

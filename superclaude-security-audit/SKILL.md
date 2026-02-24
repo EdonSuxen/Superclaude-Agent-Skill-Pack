@@ -1,20 +1,6 @@
 ---
 name: superclaude-security-audit
-description: Comprehensive security audit using three SuperClaude security specialists in parallel — security (threat modeling, vulnerability analysis), devsecops-automation-engineer (automated SAST/DAST scanning, CI/CD gates), and compliance-auditor (GDPR/SOC 2/HIPAA mapping). Returns a structured security report with prioritized findings.
 version: 1.0.0
-tags: [superclaude, claude-code, security-audit, threat-modeling, owasp, compliance, sast-dast, vulnerability-assessment, gdpr, soc2]
-category: security
-metadata:
-  openclaw:
-    emoji: "🛡️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Security Audit — Three-Specialist Wave

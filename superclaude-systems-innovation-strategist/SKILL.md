@@ -1,20 +1,6 @@
 ---
 name: superclaude-systems-innovation-strategist
-description: World-class strategic design, service design, design research, and generative/AI-assisted design specialist combining systems thinking (Meadows), innovation frameworks, and computational creativity. Designs service blueprints, conducts design research, creates AI art prompts (Midjourney, Runway, Stable Diffusion), and applies systems thinking to complex design challenges. Activates on "service design", "design research", "systems thinking", "AI art", "innovation framework".
 version: 1.0.0
-tags: [superclaude, claude-code, systems-thinking, service-design, design-research, generative-ai, innovation, ai-art, midjourney, strategic-design]
-category: design
-metadata:
-  openclaw:
-    emoji: "💡"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Systems Strategist — Innovation, Service Design & AI Creativity

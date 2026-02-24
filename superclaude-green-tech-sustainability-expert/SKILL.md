@@ -1,20 +1,6 @@
 ---
 name: superclaude-green-tech-sustainability-expert
-description: Green technology and sustainability expert specializing in carbon measurement, energy-efficient architecture, ESG reporting, and sustainable software practices. Measures software carbon intensity, optimizes cloud resource utilization, designs green CI/CD pipelines, and generates ESG compliance reports. Activates on "carbon footprint", "energy efficiency", "ESG reporting", "green computing", "sustainable software".
 version: 1.0.0
-tags: [superclaude, claude-code, sustainability, green-tech, carbon-footprint, energy-efficiency, esg-reporting, sustainable-software, green-cloud, sci-measurement]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🌿"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Sustainability Expert — Green Technology & ESG

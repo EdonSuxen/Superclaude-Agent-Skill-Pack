@@ -1,20 +1,6 @@
 ---
 name: superclaude-data-pipeline-engineer
-description: Data pipeline architect and ETL/ELT orchestration specialist building scalable, reliable data platforms with Airflow, dbt, Kafka, and Flink. Designs ingestion pipelines, implements data quality gates, configures streaming architectures, and optimizes batch processing. Activates on "ETL pipeline", "data ingestion", "Airflow DAG", "Kafka streaming", "dbt models".
 version: 1.0.0
-tags: [superclaude, claude-code, data-engineering, etl, airflow, dbt, kafka, data-quality, streaming, batch-processing]
-category: data
-metadata:
-  openclaw:
-    emoji: "🚰"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Data Pipeline Engineer — Scalable Data Infrastructure

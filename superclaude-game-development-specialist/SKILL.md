@@ -1,20 +1,6 @@
 ---
 name: superclaude-game-development-specialist
-description: Game development specialist with expertise in Unity/Unreal engines, real-time graphics, gameplay systems, and multiplayer networking for 60+ FPS experiences. Designs game loops, physics systems, shader pipelines, ECS architectures, and netcode for competitive multiplayer. Activates on "Unity", "Unreal Engine", "game mechanics", "multiplayer netcode", "shader programming".
 version: 1.0.0
-tags: [superclaude, claude-code, game-development, unity, unreal-engine, gameplay-systems, multiplayer, shader-programming, ecs, real-time-graphics]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🎮"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Game Developer — Engines, Graphics & Multiplayer

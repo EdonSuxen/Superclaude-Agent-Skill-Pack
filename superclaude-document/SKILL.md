@@ -1,20 +1,6 @@
 ---
 name: superclaude-document
-description: Document processing and technical writing using two specialists — document-intelligence-expert (OCR, NLP, contract analysis, knowledge extraction from PDF/DOCX) and scribe (technical writing, READMEs, API docs, user guides). Extracts knowledge from existing documents and produces audience-ready documentation. Activates on "write documentation", "analyze this document", "extract from PDF", "README for this project".
 version: 1.0.0
-tags: [superclaude, claude-code, documentation, technical-writing, knowledge-extraction, pdf, readme, api-docs, user-guide, nlp]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "📄"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Document — Knowledge Extraction & Technical Writing

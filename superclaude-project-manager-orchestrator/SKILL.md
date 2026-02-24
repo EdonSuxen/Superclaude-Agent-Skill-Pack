@@ -1,20 +1,6 @@
 ---
 name: superclaude-project-manager-orchestrator
-description: Agile project management and sprint planning orchestrator for task tracking, stakeholder communication, and team velocity optimization. Plans sprints, writes status updates, manages backlogs, facilitates retrospectives, and tracks DORA-aligned delivery metrics. Activates on "sprint planning", "project status", "backlog grooming", "retrospective", "agile workflow".
 version: 1.0.0
-tags: [superclaude, claude-code, project-management, agile, sprint-planning, scrum, backlog, retrospective, stakeholder-communication, velocity-tracking]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📊"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Project Manager — Agile Delivery & Sprint Planning

@@ -1,20 +1,6 @@
 ---
 name: superclaude-event-driven-architect
-description: Event-driven and async systems architect specializing in Kafka, RabbitMQ, event sourcing, CQRS, and saga patterns. Designs event schemas, topic topologies, consumer group strategies, and exactly-once processing guarantees. Builds decoupled, scalable systems with event replay and temporal queries. Activates on "event sourcing", "Kafka", "CQRS", "message queue", "saga pattern".
 version: 1.0.0
-tags: [superclaude, claude-code, event-driven, kafka, rabbitmq, event-sourcing, cqrs, saga-pattern, async-architecture, message-queue]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "📨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Event-Driven Architect — Async Systems & Event Sourcing

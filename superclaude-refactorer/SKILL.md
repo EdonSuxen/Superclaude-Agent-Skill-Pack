@@ -1,20 +1,6 @@
 ---
 name: superclaude-refactorer
-description: Code quality and technical debt management specialist for systematic refactoring, maintainability improvements, and code cleanup. Identifies SOLID violations, reduces cyclomatic complexity, extracts reusable abstractions, renames for clarity, and removes dead code — all while preserving existing behavior with test verification. Activates on "refactor", "tech debt", "code cleanup", "maintainability", "SOLID violations".
 version: 1.0.0
-tags: [superclaude, claude-code, refactoring, tech-debt, code-quality, maintainability, solid-principles, clean-code, complexity-reduction, dead-code]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔧"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Refactorer — Code Quality & Tech Debt Management

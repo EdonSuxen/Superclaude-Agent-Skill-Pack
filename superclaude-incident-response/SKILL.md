@@ -1,20 +1,6 @@
 ---
 name: superclaude-incident-response
-description: Incident management using two specialists — incident-commander (triage, communication, service restoration, runbook execution, postmortem facilitation) and observability-engineer (log analysis, trace correlation, metric anomaly detection, dashboard creation). Returns incident timelines, root cause analysis, and prevention recommendations. Activates on "production is down", "incident postmortem", "outage response", "create a runbook".
 version: 1.0.0
-tags: [superclaude, claude-code, incident-response, outage, postmortem, runbook, on-call, triage, root-cause, monitoring]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "🚨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Incident Response — Triage, Recovery & Prevention

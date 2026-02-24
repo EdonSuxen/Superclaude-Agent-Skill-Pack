@@ -1,20 +1,6 @@
 ---
 name: superclaude-web3
-description: Blockchain and decentralized application development using SuperClaude's blockchain-web3-specialist — smart contract development (Solidity, Rust), DeFi protocol design, NFT systems, DAO governance, security auditing for on-chain code, and gas optimization. Returns security-first implementations with formal verification recommendations. Activates on "smart contract", "DeFi protocol", "NFT", "DAO governance", "gas optimization".
 version: 1.0.0
-tags: [superclaude, claude-code, blockchain, smart-contracts, defi, web3, solidity, ethereum, nft, dao-governance]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔗"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Web3 — Blockchain & Decentralized Applications

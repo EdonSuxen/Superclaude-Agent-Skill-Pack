@@ -1,20 +1,6 @@
 ---
 name: superclaude-observability
-description: Observability and reliability engineering using two specialists — observability-engineer (Prometheus, Grafana, OpenTelemetry, structured logging, distributed tracing, alerting rules) and sre-chaos-engineer (SLO/SLI definition, chaos experiments, error budgets, capacity planning). Returns monitoring configurations, dashboards, and reliability validation plans. Activates on "set up monitoring", "add tracing", "define SLOs", "alerting rules".
 version: 1.0.0
-tags: [superclaude, claude-code, observability, prometheus, grafana, opentelemetry, monitoring, tracing, alerting, slo]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "👁️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Observability — Monitoring, Tracing & SLO Engineering

@@ -1,20 +1,6 @@
 ---
 name: superclaude-notion
-description: Notion workspace intelligence using two specialists — document-intelligence-expert (page extraction, structured analysis, content summarization, block parsing) and data-analyst-expert (database queries, KPI dashboards, trend analysis, sprint velocity). Reads Notion pages, databases, and blocks to provide summaries, insights, and action items. Activates on "summarize my Notion", "analyze this database", "extract action items".
 version: 1.0.0
-tags: [superclaude, claude-code, notion, workspace-intelligence, document-analysis, kpi-dashboards, productivity, content-extraction]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📝"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Notion — Workspace Intelligence

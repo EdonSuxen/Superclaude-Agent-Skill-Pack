@@ -1,20 +1,6 @@
 ---
 name: superclaude-architecture
-description: Architecture review and system design using three SuperClaude expert architects in a coordinated wave — architect (holistic system design and ADRs), backend-architect (reliability, scalability, and server-side patterns), and api-architect (API contracts, versioning, and developer experience). Returns a structured design recommendation with trade-off analysis.
 version: 1.0.0
-tags: [superclaude, claude-code, architecture, system-design, adr, scalability, microservices, trade-off-analysis, api-design]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🏗️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Architecture — Three-Architect Wave

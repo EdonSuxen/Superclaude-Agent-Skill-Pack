@@ -1,20 +1,6 @@
 ---
 name: superclaude-systems-programming
-description: High-performance systems programming using two specialists — rust-systems-engineer (memory safety, async/await, unsafe Rust, FFI, performance optimization) and embedded-systems-engineer (RTOS, bare-metal development, hardware interfacing, resource-constrained systems). Returns systems design with safety guarantees and performance benchmarks. Activates on "write in Rust", "embedded firmware", "systems programming", "memory-safe".
 version: 1.0.0
-tags: [superclaude, claude-code, systems-programming, rust, embedded, memory-safety, rtos, bare-metal, performance-engineering, ffi]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧰"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Systems Programming — Rust & Embedded Engineering

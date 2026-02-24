@@ -1,20 +1,6 @@
 ---
 name: superclaude-architect
-description: Holistic systems architecture specialist using C4 modeling, Architecture Decision Records (ADRs), and trade-off analysis. Designs maintainable, scalable systems with clear service boundaries, technology selection rationale, and migration paths. Activates on "design a system", "architecture review", "how should I structure", "write an ADR".
 version: 1.0.0
-tags: [superclaude, claude-code, architecture, system-design, c4-modeling, adr, scalability, service-boundaries, trade-off-analysis]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🏗️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Architect — Holistic Systems Design

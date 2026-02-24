@@ -1,20 +1,6 @@
 ---
 name: superclaude-sre
-description: Site reliability engineering using three specialists — sre-chaos-engineer (chaos experiments, error budgets, capacity planning, disaster recovery), observability-engineer (Prometheus/Grafana, OpenTelemetry, alerting), and incident-commander (runbooks, postmortems, crisis communication). Returns reliability assessments with SLO definitions and improvement roadmaps. Activates on "define SLOs", "chaos test", "improve reliability", "postmortem".
 version: 1.0.0
-tags: [superclaude, claude-code, sre, reliability, chaos-engineering, slo-sli, incident-response, error-budgets, disaster-recovery, observability]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "🛡️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude SRE — Reliability Engineering & Chaos Testing

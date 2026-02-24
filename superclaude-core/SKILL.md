@@ -1,20 +1,6 @@
 ---
 name: superclaude-core
-description: General-purpose SuperClaude dispatcher that auto-routes any task to the best specialist from 56 available agents. Handles code, architecture, research, debugging, documentation, and multi-domain requests using intelligent complexity detection and domain classification. The entry point when no specific skill matches. Activates on any request that doesn't map to a specialized skill.
 version: 1.0.0
-tags: [superclaude, claude-code, general-purpose, auto-routing, task-dispatcher, multi-agent, intelligent-routing, complexity-detection]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧠"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Core — Intelligent Task Dispatcher

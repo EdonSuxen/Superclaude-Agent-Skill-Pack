@@ -1,20 +1,6 @@
 ---
 name: superclaude-iot
-description: IoT and embedded systems using two specialists — edge-computing-specialist (edge architectures, MQTT/CoAP protocols, real-time processing, offline-first patterns, 5G MEC) and embedded-systems-engineer (RTOS, bare-metal C/C++/Rust, hardware interfacing, power optimization). Returns system architectures, firmware designs, and communication protocols. Activates on "IoT architecture", "embedded firmware", "edge processing", "sensor network".
 version: 1.0.0
-tags: [superclaude, claude-code, iot, edge-computing, embedded, mqtt, rtos, firmware, sensor, real-time]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "📡"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude IoT — Edge Computing & Embedded Engineering

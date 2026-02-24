@@ -1,20 +1,6 @@
 ---
 name: superclaude-security
-description: Threat modeling and vulnerability assessment using STRIDE methodology and OWASP Top 10 analysis. Identifies attack vectors, evaluates risk, and produces prioritized remediation plans. Activates on "is this secure", "find vulnerabilities", "threat model", "security review before launch".
 version: 1.0.0
-tags: [superclaude, claude-code, security, owasp, threat-modeling, vulnerability, stride, penetration-testing, code-review, risk-assessment]
-category: security
-metadata:
-  openclaw:
-    emoji: "🛡️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Security Specialist — Threat Modeling and Vulnerability Assessment

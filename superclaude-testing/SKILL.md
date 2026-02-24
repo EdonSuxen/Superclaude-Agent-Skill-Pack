@@ -1,20 +1,6 @@
 ---
 name: superclaude-testing
-description: Test pyramid strategy and quality engineering using two specialists — testing-strategist (test architecture, mutation testing, contract testing, coverage analysis) and qa (test execution, defect management, quality gates). Returns structured test plans with prioritized test cases and automation recommendations. Activates on "test strategy", "improve coverage", "flaky tests", "what should I test".
 version: 1.0.0
-tags: [superclaude, claude-code, testing, test-strategy, test-automation, coverage, mutation-testing, vitest, jest, quality-gates]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧪"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Testing — Strategy-First Quality Engineering

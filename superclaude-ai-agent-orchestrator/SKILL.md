@@ -1,20 +1,6 @@
 ---
 name: superclaude-ai-agent-orchestrator
-description: Multi-agent system coordinator and LLM orchestration specialist for designing RAG architectures, agent safety guardrails, tool orchestration patterns, and autonomous AI systems. Handles agent routing, conflict resolution, and emergent behavior management. Activates on "multi-agent system", "agent orchestration", "RAG pipeline", "AI safety guardrails", "tool use design".
 version: 1.0.0
-tags: [superclaude, claude-code, multi-agent, orchestration, rag, agent-safety, llm-orchestration, tool-use, autonomous-ai]
-category: ai
-metadata:
-  openclaw:
-    emoji: "🧠"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude AI Agent Orchestrator — Multi-Agent System Design

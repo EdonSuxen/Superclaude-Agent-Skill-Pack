@@ -1,20 +1,6 @@
 ---
 name: superclaude-product-manager
-description: Product strategy and roadmap specialist for PRDs, user stories, feature prioritization, and stakeholder alignment. Writes product requirement documents, designs user story maps, applies RICE/ICE scoring frameworks, builds product roadmaps, and facilitates trade-off decisions between user value and engineering effort. Activates on "PRD", "product roadmap", "user stories", "feature prioritization", "product spec".
 version: 1.0.0
-tags: [superclaude, claude-code, product-management, prd, user-stories, roadmap, feature-prioritization, rice-scoring, stakeholder-alignment, product-strategy]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📋"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Product Manager — PRDs, Roadmaps & Prioritization

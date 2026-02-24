@@ -1,20 +1,6 @@
 ---
 name: superclaude-cloud-infra
-description: Cloud infrastructure and Kubernetes engineering using two specialists — cloud-native-architect (K8s cluster design, service mesh, multi-cloud strategy, container orchestration) and devops-engineer (Terraform/IaC, deployment automation, monitoring integration). Returns infrastructure designs, K8s manifests, and migration plans. Activates on "Kubernetes setup", "cloud architecture", "migrate to cloud", "service mesh".
 version: 1.0.0
-tags: [superclaude, claude-code, kubernetes, cloud-native, terraform, aws, gcp, azure, service-mesh, infrastructure-as-code]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "☁️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Cloud Infrastructure — Kubernetes & Cloud-Native Architecture

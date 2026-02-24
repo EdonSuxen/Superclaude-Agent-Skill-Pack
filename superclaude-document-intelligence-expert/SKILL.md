@@ -1,20 +1,6 @@
 ---
 name: superclaude-document-intelligence-expert
-description: Document processing and knowledge extraction specialist for OCR, NLP, contract analysis, and intelligent document transformation across PDF, DOCX, and structured formats. Extracts entities, classifies documents, builds searchable knowledge bases, and automates document workflows. Activates on "PDF extraction", "contract analysis", "document processing", "OCR", "knowledge extraction".
 version: 1.0.0
-tags: [superclaude, claude-code, document-processing, ocr, nlp, contract-analysis, knowledge-extraction, pdf, entity-extraction, classification]
-category: data
-metadata:
-  openclaw:
-    emoji: "📄"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Document Intelligence — Processing & Knowledge Extraction

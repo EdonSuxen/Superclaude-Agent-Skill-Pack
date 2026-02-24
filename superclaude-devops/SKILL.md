@@ -1,20 +1,6 @@
 ---
 name: superclaude-devops
-description: CI/CD pipeline engineering and platform operations using two specialists — devops-engineer (pipeline automation, Docker, Kubernetes deployment, GitOps) and platform-engineer (internal developer platforms, golden paths, Backstage, DORA metrics). Returns pipeline configs, deployment strategies, and developer experience improvements. Activates on "set up CI/CD", "deployment pipeline", "Docker setup", "improve developer experience".
 version: 1.0.0
-tags: [superclaude, claude-code, devops, ci-cd, docker, kubernetes, gitlab-ci, github-actions, gitops, infrastructure-as-code]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "🔄"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude DevOps — Pipeline Automation & Platform Engineering

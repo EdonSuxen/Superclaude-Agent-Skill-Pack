@@ -1,20 +1,6 @@
 ---
 name: superclaude-vercel
-description: Vercel deployment intelligence using two specialists — devops-engineer (deployment pipeline analysis, CI/CD optimization, environment configuration, rollback strategies) and performance-engineer (build profiling, bundle analysis, edge function optimization, cold start reduction). Returns deployment diagnostics with actionable optimization recommendations. Activates on "Vercel build slow", "deployment failed", "optimize edge functions", "Vercel configuration".
 version: 1.0.0
-tags: [superclaude, claude-code, vercel, deployment, edge-functions, build-optimization, nextjs, serverless, ci-cd, bundle-analysis]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "▲"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Vercel — Deployment Intelligence

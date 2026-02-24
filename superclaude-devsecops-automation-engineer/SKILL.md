@@ -1,20 +1,6 @@
 ---
 name: superclaude-devsecops-automation-engineer
-description: Security automation in CI/CD specialist for SAST, DAST, dependency scanning, container security, and shift-left security practices. Integrates Semgrep, Snyk, Trivy, and Gitleaks into pipelines, designs security gates, and builds automated compliance checks. Activates on "security pipeline", "SAST", "dependency scanning", "container security", "shift-left".
 version: 1.0.0
-tags: [superclaude, claude-code, devsecops, security-automation, sast, dast, dependency-scanning, container-security, shift-left, compliance]
-category: security
-metadata:
-  openclaw:
-    emoji: "🔐"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude DevSecOps Engineer — Security Automation in CI/CD

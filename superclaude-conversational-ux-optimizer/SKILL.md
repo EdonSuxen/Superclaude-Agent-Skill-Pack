@@ -1,20 +1,6 @@
 ---
 name: superclaude-conversational-ux-optimizer
-description: Chatbot and voice UI design specialist for conversation flow optimization, intent classification architecture, dialog management, personality design, and error recovery patterns. Designs conversational interfaces that feel natural and complete tasks efficiently. Activates on "chatbot design", "voice UI", "conversation flow", "dialog management", "bot personality".
 version: 1.0.0
-tags: [superclaude, claude-code, chatbot, voice-ui, conversation-design, dialog-management, intent-classification, nlp, user-experience]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "💬"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Conversational UX — Dialog Design & Optimization

@@ -1,20 +1,6 @@
 ---
 name: superclaude-spotify
-description: Spotify music intelligence using two specialists — multimedia-pipeline-orchestrator (audio feature analysis, playlist structure, track characteristics, BPM/key detection) and data-analyst-expert (listening trends, genre distribution, mood patterns, recommendation algorithms). Analyzes playlists, discovers patterns, and provides data-driven music recommendations. Activates on "analyze my playlist", "recommend music", "listening trends", "genre breakdown".
 version: 1.0.0
-tags: [superclaude, claude-code, spotify, music-intelligence, playlist-analysis, audio-features, genre-analysis, recommendations, listening-trends]
-category: media
-metadata:
-  openclaw:
-    emoji: "🎵"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Spotify — Music Intelligence & Analysis

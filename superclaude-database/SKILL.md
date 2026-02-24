@@ -1,20 +1,6 @@
 ---
 name: superclaude-database
-description: Database design and migration planning using two specialists — database-architect (schema normalization, index strategy, query optimization, polyglot persistence) and backend-architect (ORM integration, connection pooling, service-layer wiring). Returns ER diagrams, migration scripts, and performance recommendations. Activates on "design schema", "slow query", "which database", "migration plan".
 version: 1.0.0
-tags: [superclaude, claude-code, database, postgresql, mysql, mongodb, schema-design, query-optimization, migrations, indexing]
-category: data
-metadata:
-  openclaw:
-    emoji: "🗄️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Database — Schema Design & Migration Engineering

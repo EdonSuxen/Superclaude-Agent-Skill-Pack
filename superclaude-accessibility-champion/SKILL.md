@@ -1,20 +1,6 @@
 ---
 name: superclaude-accessibility-champion
-description: Digital accessibility and inclusive design specialist for WCAG 2.2 compliance, screen reader testing strategies, ARIA pattern implementation, keyboard navigation audits, and color contrast analysis. Produces actionable remediation plans with code fixes ranked by impact. Activates on "WCAG audit", "screen reader", "keyboard navigation", "accessibility fix", "color contrast".
 version: 1.0.0
-tags: [superclaude, claude-code, accessibility, wcag, aria, screen-reader, keyboard-navigation, inclusive-design, a11y, color-contrast]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "♿"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Accessibility Champion — WCAG 2.2 Compliance

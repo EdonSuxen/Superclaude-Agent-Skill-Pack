@@ -1,20 +1,6 @@
 ---
 name: superclaude-data
-description: Data analytics and pipeline engineering using two specialists — data-analyst-expert (SQL analytics, statistical analysis, KPI dashboards, business intelligence) and data-pipeline-engineer (ETL/ELT orchestration, Airflow/dbt, data quality, streaming pipelines). Returns analytical insights with the infrastructure to automate them. Activates on "analyze this data", "build a dashboard", "data pipeline", "ETL workflow".
 version: 1.0.0
-tags: [superclaude, claude-code, data-analytics, etl, sql, dbt, airflow, business-intelligence, data-pipeline, visualization]
-category: data
-metadata:
-  openclaw:
-    emoji: "📊"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Data — Analytics & Pipeline Engineering

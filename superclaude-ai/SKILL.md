@@ -1,20 +1,6 @@
 ---
 name: superclaude-ai
-description: AI and ML engineering using two specialists — ai-ml-engineer (model training, inference optimization, MLOps pipelines, responsible AI) and ai-agent-orchestrator (multi-agent system design, RAG architectures, tool orchestration, agent safety). Returns architecture decisions, deployment plans, and evaluation frameworks. Activates on "build an AI agent", "deploy a model", "RAG pipeline", "LLM integration".
 version: 1.0.0
-tags: [superclaude, claude-code, ai, machine-learning, mlops, llm, rag, model-deployment, agent-orchestration, responsible-ai]
-category: ai
-metadata:
-  openclaw:
-    emoji: "🤖"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude AI — ML Engineering & Agent Architecture

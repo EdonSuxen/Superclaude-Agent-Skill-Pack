@@ -1,20 +1,6 @@
 ---
 name: superclaude-incident-commander
-description: Production incident and crisis management specialist for outage response, severity classification, communication templates, postmortem facilitation, and runbook creation. Coordinates triage, identifies blast radius, drafts status page updates, and builds blameless postmortem documents. Activates on "production incident", "outage", "postmortem", "runbook", "incident response".
 version: 1.0.0
-tags: [superclaude, claude-code, incident-response, postmortem, runbook, outage-management, on-call, severity-classification, crisis-management, status-page]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🚨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Incident Commander — Outage Response & Postmortems

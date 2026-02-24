@@ -1,20 +1,6 @@
 ---
 name: superclaude-meta-orchestrator
-description: Technical multi-agent coordination orchestrator for complex tasks requiring 3+ domains, wave mode activation, and intelligent agent delegation. Decomposes large tasks into executable steps, selects optimal specialist agents, coordinates parallel execution waves, and tracks progress across multi-phase projects. Activates on "coordinate agents", "complex task", "wave mode", "multi-domain project", "orchestrate".
 version: 1.0.0
-tags: [superclaude, claude-code, orchestration, task-decomposition, wave-coordination, multi-agent, agent-delegation, progress-tracking, complex-tasks, parallel-execution]
-category: ai
-metadata:
-  openclaw:
-    emoji: "🧠"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Meta-Orchestrator — Multi-Agent Task Coordination

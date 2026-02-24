@@ -1,20 +1,6 @@
 ---
 name: superclaude-design
-description: UX and visual design using two specialists — digital-experience-designer (UX research, usability testing, interaction design, WCAG 2.2 accessibility) and visual-communication-architect (brand identity, typography, data visualization, Vignelli methodology). Returns UX audits, wireframes, and visual specifications. Activates on "UX review", "redesign this page", "improve user flow", "design critique".
 version: 1.0.0
-tags: [superclaude, claude-code, ux-design, visual-design, brand-identity, typography, data-visualization, wcag, interaction-design, wireframes]
-category: design
-metadata:
-  openclaw:
-    emoji: "🎨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Design — UX Research & Visual Communication

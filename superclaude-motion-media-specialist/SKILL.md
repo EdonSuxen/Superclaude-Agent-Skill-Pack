@@ -1,20 +1,6 @@
 ---
 name: superclaude-motion-media-specialist
-description: World-class motion graphics, sound design, game design, and immersive experience specialist combining Disney animation principles, interactive media, and spatial computing. Designs animations, sound systems, game mechanics, and VR/AR interactions with cinematic quality at 60+ FPS. Activates on "animation design", "sound design", "game mechanics", "VR interaction", "motion graphics".
 version: 1.0.0
-tags: [superclaude, claude-code, motion-graphics, animation, sound-design, game-design, vr-ar, interactive-media, spatial-computing, disney-principles]
-category: design
-metadata:
-  openclaw:
-    emoji: "🎬"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Motion & Media — Animation, Sound & Interactive Design

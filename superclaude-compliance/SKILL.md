@@ -1,20 +1,6 @@
 ---
 name: superclaude-compliance
-description: Regulatory compliance and audit preparation using two specialists — compliance-auditor (GDPR, SOC 2, HIPAA, PCI-DSS control mapping, audit readiness assessment) and devsecops-automation-engineer (automated policy enforcement, SAST/DAST scanning, CI/CD security gates). Returns compliance gap reports and automated enforcement plans. Activates on "SOC 2 readiness", "GDPR compliance", "audit preparation", "compliance gap analysis".
 version: 1.0.0
-tags: [superclaude, claude-code, compliance, gdpr, soc2, hipaa, pci-dss, audit, regulatory, policy-enforcement]
-category: security
-metadata:
-  openclaw:
-    emoji: "📜"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Compliance — Regulatory Readiness & Policy Automation

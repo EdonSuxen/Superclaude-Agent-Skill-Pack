@@ -1,20 +1,6 @@
 ---
 name: superclaude-ml-ops
-description: MLOps and feature engineering using two specialists — ai-ml-engineer (experiment tracking, model registry, training pipelines, model serving, drift detection) and data-pipeline-engineer (feature stores, ETL for training data, Airflow orchestration, data versioning). Returns end-to-end ML platform designs with reproducible training and reliable serving. Activates on "MLOps pipeline", "model deployment", "feature store", "model monitoring".
 version: 1.0.0
-tags: [superclaude, claude-code, mlops, model-deployment, feature-store, experiment-tracking, model-monitoring, airflow, mlflow, drift-detection]
-category: ai
-metadata:
-  openclaw:
-    emoji: "🔬"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude MLOps — ML Platform & Feature Engineering

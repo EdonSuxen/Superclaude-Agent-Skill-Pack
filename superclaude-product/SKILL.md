@@ -1,20 +1,6 @@
 ---
 name: superclaude-product
-description: Product strategy using two specialists — product-manager (PRDs, user stories, roadmap prioritization, feature scoping, acceptance criteria) and business-strategy-expert (market positioning, competitive analysis, pricing strategy, go-to-market planning). Returns product specs with business alignment. Activates on "write a PRD", "prioritize our backlog", "product roadmap", "feature vs build decision".
 version: 1.0.0
-tags: [superclaude, claude-code, product-management, prd, roadmap, user-stories, market-strategy, prioritization, go-to-market, competitive-analysis]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📋"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Product — Strategy & Requirements Engineering

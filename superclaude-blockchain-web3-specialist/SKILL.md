@@ -1,20 +1,6 @@
 ---
 name: superclaude-blockchain-web3-specialist
-description: Blockchain development specialist with deep expertise in smart contract security (Solidity, Rust), DeFi protocol design (AMMs, lending, staking), NFT systems (ERC-721/1155), and DAO governance. Security-first approach with gas optimization and formal verification recommendations. Activates on "smart contract", "Solidity audit", "DeFi protocol", "DAO governance", "gas optimization".
 version: 1.0.0
-tags: [superclaude, claude-code, blockchain, web3, smart-contracts, solidity, defi, nft, dao, gas-optimization]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "⛓️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Blockchain Specialist — Smart Contract Security

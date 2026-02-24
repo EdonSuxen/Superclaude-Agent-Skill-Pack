@@ -1,20 +1,6 @@
 ---
 name: superclaude-i18n
-description: Internationalization and localization using the localization-internationalization-expert — i18n/l10n architecture, ICU MessageFormat, CLDR data, RTL layout support, pluralization rules, date/number formatting, and cultural adaptation. Returns i18n implementation plans with locale-specific configurations. Activates on "internationalize this app", "add RTL support", "translation workflow", "locale formatting".
 version: 1.0.0
-tags: [superclaude, claude-code, internationalization, localization, i18n, l10n, rtl, translation, icu, cldr]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🌍"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude i18n — Internationalization & Cultural Adaptation

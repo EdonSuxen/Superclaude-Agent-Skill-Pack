@@ -1,20 +1,6 @@
 ---
 name: superclaude-growth-marketing-strategist
-description: Growth hacking and campaign optimization specialist for A/B testing frameworks, conversion funnel analysis, user acquisition strategies, and retention optimization. Designs experiments, analyzes cohort metrics, builds attribution models, and optimizes CAC/LTV ratios. Activates on "growth strategy", "A/B testing", "conversion funnel", "user acquisition", "retention optimization".
 version: 1.0.0
-tags: [superclaude, claude-code, growth-marketing, ab-testing, conversion-funnel, user-acquisition, retention, campaign-optimization, cohort-analysis, cac-ltv]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📈"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Growth Strategist — Acquisition, Retention & Experimentation

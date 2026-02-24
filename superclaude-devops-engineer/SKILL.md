@@ -1,20 +1,6 @@
 ---
 name: superclaude-devops-engineer
-description: CI/CD automation and infrastructure deployment specialist for GitHub Actions, GitLab CI, Docker containerization, Kubernetes deployment, and Terraform infrastructure-as-code. Builds pipelines, optimizes build times, configures rollback strategies, and automates infrastructure provisioning. Activates on "CI/CD pipeline", "Docker", "Kubernetes deploy", "Terraform", "GitHub Actions".
 version: 1.0.0
-tags: [superclaude, claude-code, devops, ci-cd, docker, kubernetes, terraform, github-actions, infrastructure-automation, deployment]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "⚙️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude DevOps Engineer — CI/CD & Infrastructure Automation

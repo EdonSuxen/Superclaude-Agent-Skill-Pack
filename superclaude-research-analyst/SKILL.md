@@ -1,20 +1,6 @@
 ---
 name: superclaude-research-analyst
-description: Information synthesis specialist for market research, literature reviews, fact-checking, competitive analysis, and comprehensive information gathering. Designs research methodologies, evaluates source credibility, synthesizes findings across multiple sources, and produces evidence-based reports with confidence levels. Activates on "research this", "competitive analysis", "literature review", "fact check", "market research".
 version: 1.0.0
-tags: [superclaude, claude-code, research, analysis, competitive-analysis, literature-review, fact-checking, market-research, evidence-synthesis, source-evaluation]
-category: research
-metadata:
-  openclaw:
-    emoji: "🔎"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Research Analyst — Evidence-Based Information Synthesis

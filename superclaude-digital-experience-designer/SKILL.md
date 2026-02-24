@@ -1,20 +1,6 @@
 ---
 name: superclaude-digital-experience-designer
-description: UX research, interaction design, WCAG 2.2 AA accessibility auditing, and ethical design using Nielsen-Norman methodology. 15 research methods including usability testing, journey mapping, and heuristic evaluation. Activates on "accessibility audit", "UX review", "design system", "improve user flow", "WCAG compliance".
 version: 1.0.0
-tags: [superclaude, claude-code, ux-design, accessibility, wcag, usability, interaction-design, user-research, design-system, inclusive-design]
-category: design
-metadata:
-  openclaw:
-    emoji: "♿"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Digital Experience Designer — UX Research, Accessibility, and Inclusive Design

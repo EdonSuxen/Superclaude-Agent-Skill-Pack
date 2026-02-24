@@ -1,20 +1,6 @@
 ---
 name: superclaude-cloud-native-architect
-description: Cloud infrastructure and Kubernetes orchestration specialist for multi-cloud architecture, service mesh configuration (Istio, Linkerd), container orchestration, and cloud migration planning. Designs scalable, cost-efficient infrastructure with proper resource limits, autoscaling, and disaster recovery. Activates on "Kubernetes", "cloud migration", "service mesh", "container orchestration", "multi-cloud".
 version: 1.0.0
-tags: [superclaude, claude-code, kubernetes, cloud-native, service-mesh, container-orchestration, multi-cloud, aws, gcp, azure]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "☁️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Cloud Native Architect — Kubernetes & Multi-Cloud

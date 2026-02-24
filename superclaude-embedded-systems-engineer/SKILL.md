@@ -1,20 +1,6 @@
 ---
 name: superclaude-embedded-systems-engineer
-description: Embedded systems engineer specializing in RTOS, bare-metal development, hardware interfacing, and resource-constrained system optimization. Writes firmware in C/C++/Rust, designs interrupt-driven architectures, optimizes memory footprint, and interfaces with peripherals (SPI, I2C, UART, CAN). Activates on "embedded firmware", "RTOS", "bare-metal", "hardware interface", "microcontroller".
 version: 1.0.0
-tags: [superclaude, claude-code, embedded-systems, rtos, bare-metal, firmware, microcontroller, hardware-interfacing, memory-optimization, interrupt-driven]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧰"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Embedded Systems — Firmware & Hardware Integration

@@ -1,20 +1,6 @@
 ---
 name: superclaude-api-design
-description: Contract-first API design and implementation using two specialists — api-architect (OpenAPI specs, REST/GraphQL/gRPC patterns, versioning strategy, rate limiting) and backend-architect (service implementation, middleware, authentication, error handling). Returns OpenAPI specs, endpoint contracts, and implementation scaffolding. Activates on "design an API", "REST vs GraphQL", "API versioning", "OpenAPI spec".
 version: 1.0.0
-tags: [superclaude, claude-code, api-design, rest, graphql, grpc, openapi, swagger, api-gateway, versioning]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔗"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude API Design — Contract-First Engineering

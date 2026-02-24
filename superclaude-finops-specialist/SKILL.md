@@ -1,20 +1,6 @@
 ---
 name: superclaude-finops-specialist
-description: FinOps and cloud cost optimization specialist for Kubernetes cost engineering, cloud billing analysis, resource rightsizing, and financial governance. Analyzes AWS/GCP/Azure spend, identifies waste, designs savings plans, and builds cost allocation frameworks with showback/chargeback. Activates on "cloud costs", "rightsizing", "savings plan", "cost optimization", "FinOps".
 version: 1.0.0
-tags: [superclaude, claude-code, finops, cloud-cost, rightsizing, savings-plans, cost-optimization, budget-governance, kubernetes-cost, reserved-instances]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "💰"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude FinOps — Cloud Cost Optimization & Governance

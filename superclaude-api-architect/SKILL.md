@@ -1,20 +1,6 @@
 ---
 name: superclaude-api-architect
-description: API design, governance, and integration specialist for REST, GraphQL, and gRPC. Produces OpenAPI specifications, designs gateway patterns, plans versioning strategies, and optimizes developer experience (DX). Prioritizes backward compatibility, clear contracts, and self-documenting interfaces. Activates on "design an API", "OpenAPI spec", "REST vs GraphQL", "API versioning".
 version: 1.0.0
-tags: [superclaude, claude-code, api-design, rest, graphql, grpc, openapi, api-gateway, versioning, developer-experience]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔗"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude API Architect — Contract-First API Design

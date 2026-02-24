@@ -1,20 +1,6 @@
 ---
 name: superclaude-edge-computing-specialist
-description: Edge computing and IoT specialist focused on ultra-low latency systems, real-time processing, and distributed edge architectures with offline-first resilience. Designs edge deployment topologies, IoT protocol selection (MQTT, CoAP), 5G MEC integration, and edge AI inference optimization. Activates on "edge computing", "IoT architecture", "5G MEC", "edge AI", "offline-first".
 version: 1.0.0
-tags: [superclaude, claude-code, edge-computing, iot, mqtt, low-latency, 5g-mec, edge-ai, offline-first, real-time]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "📡"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Edge Computing — IoT & Ultra-Low Latency Systems

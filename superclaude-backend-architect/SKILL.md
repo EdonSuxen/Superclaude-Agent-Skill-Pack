@@ -1,20 +1,6 @@
 ---
 name: superclaude-backend-architect
-description: Server-side architecture, microservices design, API patterns, and reliability engineering. Applies reliability-first principles with circuit breakers, retries, and graceful degradation. Activates on "design this API", "microservices vs monolith", "backend architecture", "handle load spikes".
 version: 1.0.0
-tags: [superclaude, claude-code, backend, microservices, api, nodejs, reliability, event-driven, scalability, architecture]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "⚙️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Backend Architect — Server-Side Architecture and Reliability Engineering

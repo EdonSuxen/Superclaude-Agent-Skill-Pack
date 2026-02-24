@@ -1,20 +1,6 @@
 ---
 name: superclaude-mentor
-description: Knowledge transfer and education specialist for code explanations, developer onboarding, educational content creation, and skill development guidance. Explains complex concepts at the right level, creates learning paths, builds onboarding documentation, and provides constructive code review feedback. Activates on "explain this code", "how does this work", "teach me", "onboarding guide", "learning path".
 version: 1.0.0
-tags: [superclaude, claude-code, mentoring, education, code-explanation, onboarding, learning-path, skill-development, knowledge-transfer, teaching]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🎓"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Mentor — Teaching, Onboarding & Knowledge Transfer

@@ -1,20 +1,6 @@
 ---
 name: superclaude-growth
-description: Growth strategy using two specialists — growth-marketing-strategist (acquisition funnels, A/B testing, campaign optimization, viral loops, retention strategies) and data-analyst-expert (funnel analytics, cohort analysis, experiment design, KPI dashboards). Returns data-backed growth plans with measurable experiments. Activates on "improve conversion", "growth strategy", "A/B test", "reduce churn".
 version: 1.0.0
-tags: [superclaude, claude-code, growth-marketing, ab-testing, conversion, retention, funnel-analysis, analytics, experimentation, acquisition]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "📈"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Growth — Data-Driven Growth Strategy

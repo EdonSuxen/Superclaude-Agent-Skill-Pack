@@ -1,20 +1,6 @@
 ---
 name: superclaude-rust-systems-engineer
-description: High-performance systems programming specialist in Rust for memory-safe concurrency, async runtimes (Tokio), unsafe code auditing, FFI integration, and zero-cost abstractions. Designs lock-free data structures, implements custom allocators, optimizes hot paths, and builds production-grade CLI tools and network services. Activates on "Rust", "systems programming", "memory safety", "async Rust", "unsafe audit".
 version: 1.0.0
-tags: [superclaude, claude-code, rust, systems-programming, memory-safety, async-tokio, performance, concurrency, ffi, zero-cost-abstractions]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🦀"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Rust Engineer — High-Performance Systems Programming

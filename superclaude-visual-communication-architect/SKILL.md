@@ -1,20 +1,6 @@
 ---
 name: superclaude-visual-communication-architect
-description: Brand identity, logo systems, typography hierarchies, and data visualization using Vignelli systematic rigor and Tufte data-ink principles. WCAG AA contrast compliance built in. Activates on "design a logo", "brand guidelines", "make this chart clearer", "typography system", "data visualization".
 version: 1.0.0
-tags: [superclaude, claude-code, design, brand-identity, typography, data-visualization, logo, vignelli, tufte, visual-design]
-category: design
-metadata:
-  openclaw:
-    emoji: "🎨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Visual Communication Architect — Brand Identity, Typography, and Data Visualization

@@ -1,20 +1,6 @@
 ---
 name: superclaude-creative
-description: Creative design using three specialists — visual-communication-architect (brand identity, typography, data visualization, Vignelli methodology), motion-media-specialist (animation, motion graphics, Disney principles, sound design), and digital-experience-designer (UX patterns, interaction design, inclusive design). Returns comprehensive creative direction with visual, motion, and experience layers. Activates on "brand identity", "design system", "animation", "creative direction".
 version: 1.0.0
-tags: [superclaude, claude-code, creative-design, brand-identity, motion-graphics, ux-design, typography, animation, design-system, visual-design]
-category: design
-metadata:
-  openclaw:
-    emoji: "✨"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Creative — Multi-Discipline Design Direction

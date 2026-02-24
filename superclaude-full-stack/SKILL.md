@@ -1,20 +1,6 @@
 ---
 name: superclaude-full-stack
-description: Maximum-power 7-agent enterprise wave for complex multi-domain tasks — architect (system design), backend-architect (APIs), frontend-architecture-specialist (UI/state), database-architect (data layer), testing-strategist (quality), security (hardening), and performance-engineer (optimization). The most comprehensive SuperClaude skill. Activates on "full system review", "end-to-end design", "complete architecture", "technical due diligence".
 version: 1.0.0
-tags: [superclaude, claude-code, full-stack, enterprise, engineering-team, system-design, technical-review, architecture, end-to-end]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🚀"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Full-Stack — 7-Agent Enterprise Wave

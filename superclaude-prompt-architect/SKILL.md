@@ -1,20 +1,6 @@
 ---
 name: superclaude-prompt-architect
-description: Requirements discovery and structuring gateway specialist for vague requirements, Socratic dialogue, and project kickoff facilitation. Transforms ambiguous ideas into structured requirements through probing questions, identifies hidden assumptions, maps stakeholder needs, and produces actionable project briefs. Activates on "I want to build", "help me figure out", "what should I build", "project kickoff", "requirements discovery".
 version: 1.0.0
-tags: [superclaude, claude-code, requirements, discovery, socratic-dialogue, project-kickoff, stakeholder-alignment, specification, brainstorming, scoping]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🎯"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Prompt Architect — Requirements Discovery & Scoping

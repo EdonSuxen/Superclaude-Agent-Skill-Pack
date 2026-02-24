@@ -1,20 +1,6 @@
 ---
 name: superclaude-quantum-computing-researcher
-description: Quantum computing researcher specializing in NISQ algorithms, quantum circuit design, error mitigation, and quantum-classical hybrid systems using Qiskit/Cirq. Designs variational quantum algorithms (VQE, QAOA), implements error mitigation strategies, evaluates quantum advantage for specific problems, and builds quantum-classical hybrid pipelines. Activates on "quantum algorithm", "Qiskit", "quantum circuit", "error mitigation", "quantum advantage".
 version: 1.0.0
-tags: [superclaude, claude-code, quantum-computing, qiskit, cirq, nisq, variational-algorithms, error-mitigation, quantum-classical, quantum-advantage]
-category: research
-metadata:
-  openclaw:
-    emoji: "⚛️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Quantum Researcher — Algorithms, Circuits & Hybrid Systems

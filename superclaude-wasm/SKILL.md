@@ -1,20 +1,6 @@
 ---
 name: superclaude-wasm
-description: WebAssembly development using two specialists — webassembly-specialist (WASM/WASI compilation, browser integration, edge deployment, cross-platform portability) and rust-systems-engineer (Rust-to-WASM toolchain, wasm-bindgen, memory management, performance optimization). Returns WASM modules with binding code and deployment strategies. Activates on "compile to WASM", "WebAssembly module", "WASI runtime", "Rust to browser".
 version: 1.0.0
-tags: [superclaude, claude-code, webassembly, wasi, cross-platform, rust, wasm-bindgen, browser-performance, edge-computing, wasm-compilation]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🌐"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude WASM — WebAssembly & Cross-Platform Compilation

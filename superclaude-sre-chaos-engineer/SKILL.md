@@ -1,20 +1,6 @@
 ---
 name: superclaude-sre-chaos-engineer
-description: SRE and chaos engineering specialist for SLO/SLI definition, chaos experiment design, disaster recovery planning, error budget management, and capacity planning. Defines service reliability targets, designs controlled failure injection experiments, builds runbooks, and plans capacity for traffic spikes. Activates on "SLO", "chaos engineering", "disaster recovery", "error budget", "capacity planning".
 version: 1.0.0
-tags: [superclaude, claude-code, sre, chaos-engineering, slo-sli, disaster-recovery, error-budgets, capacity-planning, reliability, fault-injection]
-category: cloud
-metadata:
-  openclaw:
-    emoji: "🌀"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude SRE & Chaos Engineer — Reliability & Resilience

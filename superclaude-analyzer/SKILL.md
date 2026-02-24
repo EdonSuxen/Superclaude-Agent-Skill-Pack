@@ -1,20 +1,6 @@
 ---
 name: superclaude-analyzer
-description: Evidence-based root cause investigation specialist for debugging, systematic troubleshooting, and pattern recognition. Traces evidence chains from symptoms to causes, never assumes — always verifies. Classifies failures by type (assertion, import, syntax, runtime) and maps contributing factors. Activates on "why is this broken", "investigate this bug", "find the root cause", "what changed".
 version: 1.0.0
-tags: [superclaude, claude-code, analysis, debugging, root-cause, investigation, pattern-recognition, troubleshooting, evidence-based]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔍"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Analyzer — Root Cause Investigation

@@ -1,20 +1,6 @@
 ---
 name: superclaude-compliance-auditor
-description: Regulatory compliance and audit management specialist for GDPR, SOC 2, HIPAA, PCI-DSS, and ISO 27001. Maps current systems to regulatory controls, identifies gaps, prepares audit evidence, and designs remediation roadmaps. Produces compliance matrices with gap analysis and risk scoring. Activates on "GDPR compliance", "SOC 2 preparation", "HIPAA audit", "compliance gap analysis".
 version: 1.0.0
-tags: [superclaude, claude-code, compliance, gdpr, soc2, hipaa, pci-dss, iso-27001, audit-preparation, regulatory]
-category: security
-metadata:
-  openclaw:
-    emoji: "📜"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Compliance Auditor — Regulatory Readiness

@@ -1,20 +1,6 @@
 ---
 name: superclaude-testing-strategist
-description: Testing strategy and QA engineering specialist for test pyramid planning, mutation testing, contract testing, and test automation architecture. Designs testing strategies that maximize bug detection with minimal maintenance, selects testing tools, plans coverage targets, and builds automation frameworks. Activates on "test strategy", "test pyramid", "mutation testing", "contract testing", "test automation".
 version: 1.0.0
-tags: [superclaude, claude-code, testing-strategy, test-pyramid, mutation-testing, contract-testing, test-automation, coverage, e2e-testing, integration-testing]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧪"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Testing Strategist — Strategy, Pyramid & Automation

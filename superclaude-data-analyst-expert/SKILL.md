@@ -1,20 +1,6 @@
 ---
 name: superclaude-data-analyst-expert
-description: Expert data analyst transforming raw data into actionable insights through SQL analytics, statistical analysis, BI dashboard design, and data visualization. Writes optimized queries, designs KPI frameworks, creates chart specifications, and identifies trends in datasets. Activates on "SQL query", "dashboard design", "data visualization", "KPI tracking", "analyze this data".
 version: 1.0.0
-tags: [superclaude, claude-code, data-analysis, sql, visualization, business-intelligence, kpi, statistics, dashboards, reporting]
-category: data
-metadata:
-  openclaw:
-    emoji: "📊"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Data Analyst — Insights & Visualization

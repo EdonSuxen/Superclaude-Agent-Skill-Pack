@@ -1,20 +1,6 @@
 ---
 name: superclaude-spatial-experience-architect
-description: World-class spatial design and experiential installation specialist combining architectural mastery (Ando, Hadid), biophilic design, and immersive experience creation. Designs physical spaces, wayfinding systems, exhibition layouts, and experiential installations with building code compliance and sustainability. Activates on "space design", "wayfinding", "exhibition layout", "biophilic design", "architectural experience".
 version: 1.0.0
-tags: [superclaude, claude-code, spatial-design, architecture, wayfinding, biophilic-design, exhibition, experiential, building-codes, sustainability]
-category: design
-metadata:
-  openclaw:
-    emoji: "🏛️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Spatial Architect — Architecture, Wayfinding & Experience

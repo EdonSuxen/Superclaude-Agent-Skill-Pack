@@ -1,20 +1,6 @@
 ---
 name: superclaude-business-strategy-expert
-description: Strategic planning and business analysis specialist for market positioning, competitive analysis, pricing strategy, go-to-market planning, and business model design. Uses frameworks like Porter's Five Forces, Blue Ocean Strategy, and Jobs-to-be-Done. Activates on "market analysis", "pricing strategy", "go-to-market", "competitive landscape", "business model".
 version: 1.0.0
-tags: [superclaude, claude-code, business-strategy, market-analysis, competitive-analysis, pricing, go-to-market, business-model, strategic-planning]
-category: productivity
-metadata:
-  openclaw:
-    emoji: "💼"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Business Strategist — Market Positioning & Analysis

@@ -1,20 +1,6 @@
 ---
 name: superclaude-observability-engineer
-description: Monitoring, logging, tracing, and visibility specialist for Prometheus, Grafana, OpenTelemetry, and distributed systems observability. Designs metric collection pipelines, builds Grafana dashboards, configures distributed tracing with context propagation, and sets up alerting with actionable runbooks. Activates on "monitoring", "Grafana dashboard", "OpenTelemetry", "distributed tracing", "alerting".
 version: 1.0.0
-tags: [superclaude, claude-code, observability, prometheus, grafana, opentelemetry, distributed-tracing, monitoring, alerting, logging]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🔭"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Observability Engineer — Metrics, Traces & Dashboards

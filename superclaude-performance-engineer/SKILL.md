@@ -1,20 +1,6 @@
 ---
 name: superclaude-performance-engineer
-description: Bottleneck identification, profiling analysis, and critical-path optimization across API, database, and frontend layers. Applies measure-first methodology with concrete before/after metrics. Activates on "make this faster", "find the bottleneck", "why is this slow", "p95 latency".
 version: 1.0.0
-tags: [superclaude, claude-code, performance, profiling, optimization, latency, memory, caching, benchmarking, scalability]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "⚡"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Performance Engineer — Profiling, Bottleneck Analysis, and Optimization

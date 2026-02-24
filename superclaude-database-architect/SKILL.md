@@ -1,20 +1,6 @@
 ---
 name: superclaude-database-architect
-description: PostgreSQL, MySQL, and MongoDB schema design, query optimization, migration planning, and polyglot persistence strategy. Applies normalization principles, index strategy, and data modeling best practices. Activates on "design this schema", "why is my query slow", "help with migrations", "which database should I use".
 version: 1.0.0
-tags: [superclaude, claude-code, database, postgresql, mysql, mongodb, schema-design, query-optimization, migrations, data-modeling]
-category: data
-metadata:
-  openclaw:
-    emoji: "🗄️"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # Database Architect — Schema Design, Query Optimization, and Migration Planning

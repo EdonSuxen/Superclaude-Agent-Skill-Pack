@@ -1,20 +1,6 @@
 ---
 name: superclaude-qa
-description: Test automation, quality gates, defect management, and coverage analysis. Writes tests that catch real bugs, not just hit coverage numbers. Applies prevention-first methodology with test pyramid strategy. Activates on "write tests for this", "why is this test flaky", "improve test coverage", "quality gate".
 version: 1.0.0
-tags: [superclaude, claude-code, testing, qa, test-automation, vitest, jest, coverage, quality-assurance, ci-cd]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "🧪"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # QA Engineer — Test Automation, Quality Gates, and Defect Management

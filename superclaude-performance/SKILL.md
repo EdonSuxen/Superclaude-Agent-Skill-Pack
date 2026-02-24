@@ -1,20 +1,6 @@
 ---
 name: superclaude-performance
-description: Performance optimization using two specialists — performance-engineer (profiling, critical-path analysis, caching strategy, bundle optimization, database tuning) and analyzer (root cause investigation, bottleneck identification, systematic debugging). Returns before/after benchmarks with targeted optimizations. Activates on "make this faster", "find the bottleneck", "p95 latency", "why is this slow".
 version: 1.0.0
-tags: [superclaude, claude-code, performance, profiling, optimization, latency, caching, bundle-size, memory, scalability]
-category: developer-tools
-metadata:
-  openclaw:
-    emoji: "⚡"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Performance — Measure-First Optimization

@@ -1,20 +1,6 @@
 ---
 name: superclaude-research
-description: Deep research and evidence synthesis using two specialists — research-analyst (market research, literature reviews, fact-checking, competitive analysis, source evaluation) and scribe (structured documentation, clear writing, audience-aware formatting). Returns comprehensive research reports with cited sources and actionable recommendations. Activates on "research this topic", "competitive analysis", "literature review", "fact-check this claim".
 version: 1.0.0
-tags: [superclaude, claude-code, research, analysis, literature-review, fact-checking, competitive-analysis, evidence-synthesis, market-research]
-category: research
-metadata:
-  openclaw:
-    emoji: "📚"
-    os: [darwin, linux, win32]
-    requires:
-      bins: [node]
-      env:
-        - SUPERCLAUDE_BRIDGE_URL
-        - SUPERCLAUDE_BRIDGE_TOKEN
-      primaryEnv: SUPERCLAUDE_BRIDGE_TOKEN
-    homepage: https://github.com/EdonSuxen/Superclaude-Agent-Skill-Pack
 ---
 
 # SuperClaude Research — Evidence Synthesis & Documentation
