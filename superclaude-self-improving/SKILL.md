@@ -1,6 +1,6 @@
 ---
 name: superclaude-self-improving
-version: 1.0.0
+version: 1.1.0
 ---
 
 # SuperClaude Self-Improving Agent — Continuous Learning & Pattern Evolution
@@ -29,18 +29,22 @@ Do not activate for: general code review (use `superclaude-code-review`), debugg
 
 Hooks run automatically inside Claude Code — no bridge server needed. They detect errors and corrections as they happen and log structured entries to `.learnings/`.
 
+**Prerequisites**: `jq` must be installed (`brew install jq` / `apt install jq` / `choco install jq`).
+
 **Setup** — add to `.claude/settings.json`:
 
 ```json
 {
   "hooks": {
-    "PostToolUse": [
+    "PostToolUseFailure": [
       {
         "matcher": "Bash",
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/on-error.sh"
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/on-error.sh",
+            "timeout": 10,
+            "statusMessage": "Logging error..."
           }
         ]
       }
@@ -50,7 +54,9 @@ Hooks run automatically inside Claude Code — no bridge server needed. They det
         "hooks": [
           {
             "type": "command",
-            "command": "bash .claude/hooks/on-correction.sh \"$PROMPT\""
+            "command": "bash \"$CLAUDE_PROJECT_DIR\"/.claude/hooks/on-correction.sh",
+            "timeout": 10,
+            "statusMessage": "Checking for corrections..."
           }
         ]
       }
@@ -63,9 +69,10 @@ Hooks run automatically inside Claude Code — no bridge server needed. They det
 
 | Trigger | Detection | Logged To |
 |---------|-----------|-----------|
-| Tool failure (exit code != 0) | PostToolUse hook | `.learnings/ERRORS.md` |
+| Tool failure (Bash exit != 0) | PostToolUseFailure hook | `.learnings/ERRORS.md` |
 | User correction phrase | UserPromptSubmit hook | `.learnings/LEARNINGS.md` |
-| Recurring pattern (3+ times) | Session review | `.learnings/PATTERNS.md` → `CLAUDE.md` |
+| Feature request phrase | UserPromptSubmit hook | `.learnings/FEATURE_REQUESTS.md` |
+| Recurring pattern (3+ times) | Bridge analysis | `.learnings/PATTERNS.md` → `CLAUDE.md` |
 
 ### Mode 2: Bridge Analysis (Deep Intelligence)
 
@@ -87,16 +94,19 @@ Content-Type: application/json
 
 Bridge mode activates the full self-improvement engine: TF-IDF semantic retrieval finds related learnings across your history, contextual bandits identify which approaches work best for which task types, and the anti-pattern detector flags analysis paralysis, scope creep, and hallucinated success.
 
+**Promotion is a bridge-only operation.** When the bridge identifies learnings that recur 3+ times with semantic similarity > 0.7, it generates concrete additions for `CLAUDE.md`. Local hooks only capture — they never write to `CLAUDE.md` directly.
+
 ## Learning Log Format
 
 Each entry follows this structure:
 
 ```markdown
-## [SEVERITY] Summary — YYYY-MM-DD HH:MM
+## [SEVERITY] Summary — YYYY-MM-DD HH:MM  (ID: entry-XXXXXXXX)
 
 **Area**: `[file-path or domain]`
-**Trigger**: error | correction | discovery | capability-gap
+**Trigger**: error | correction | discovery | feature-request
 **Priority**: critical | high | medium | low
+**Status**: new | investigating | resolved | promoted
 
 ### What Happened
 [Concise description of the error, correction, or discovery]
@@ -115,20 +125,24 @@ Each entry follows this structure:
 
 ## Promotion Rules
 
-Learnings that appear **3 or more times** across different sessions or tasks are promoted:
+Learnings that appear **3 or more times** across different sessions or tasks are promoted (bridge mode only):
 
 1. **Pattern identified** — semantic similarity > 0.7 with 3+ existing entries
 2. **Promotion candidate** — entry moved to `.learnings/PATTERNS.md` with merged context
 3. **Project memory** — pattern appended to `CLAUDE.md` under a `## Learned Patterns` section
-4. **Source entries** — marked `Promoted: true` with link to pattern
+4. **Source entries** — marked `Status: promoted` with link to pattern
+
+Promotion thresholds are configurable via bridge request parameters:
+- `promotionThreshold`: minimum occurrences (default: 3)
+- `similarityThreshold`: minimum semantic similarity (default: 0.7)
 
 ## Output Structure
 
 ### Local Mode (Hook Output)
 ```
 [LOGGED] Tool failure captured → .learnings/ERRORS.md
-  Summary: npm install failed — missing peer dependency react@^18
-  Area: package.json
+  ID: entry-1740422400-12345
+  Summary: Bash failed — Command exited with non-zero status code 1
   Priority: medium
 ```
 
@@ -146,123 +160,145 @@ Learnings that appear **3 or more times** across different sessions or tasks are
 - Cluster B: "test mock configuration" (4 related entries, similarity 0.76)
 
 ## Anti-Pattern Warnings
-- ⚠️ Scope creep detected: last 3 sessions expanded beyond initial task
-- ⚠️ Approach monotony: same debugging strategy used 5x without improvement
+- Scope creep detected: last 3 sessions expanded beyond initial task
+- Approach monotony: same debugging strategy used 5x without improvement
 
 ## Promotion Candidates
 1. "Always run `npm ls` before `npm install` in monorepos" → promote to CLAUDE.md
 2. "Vitest mocks require `vi.resetAllMocks()` in afterEach" → promote to CLAUDE.md
 
-## TBKCC Dimensions
-- Truth: 0.82 (evidence-based corrections logged)
-- Beauty: 0.75 (code elegance improvements tracked)
-- Knowledge: 0.88 (5 new patterns this session)
-- Creation: 0.71 (3 novel approaches discovered)
-- Curiosity: 0.79 (2 exploration suggestions generated)
+## Quality Dimensions
+Scores track five dimensions of project health over time:
+- Truth: 0.82 — evidence-based corrections, verified claims
+- Beauty: 0.75 — code elegance, structural improvements
+- Knowledge: 0.88 — accumulated patterns, domain understanding
+- Creation: 0.71 — novel approaches, innovative solutions
+- Curiosity: 0.79 — exploration breadth, hypothesis testing
 ```
 
 ## Examples
 
 **Example 1 — Automatic error capture (local hooks):**
 
-A bash command fails during `npm install`. The PostToolUse hook fires, detects exit code 1, extracts the error message, and appends a structured entry to `.learnings/ERRORS.md` with the command, error output, and timestamp. No manual action needed.
+A bash command fails during `npm install`. The `PostToolUseFailure` hook fires, receives JSON on stdin with `{ tool_name: "Bash", error: "Command exited with non-zero status code 1", tool_input: { command: "npm install" } }`. The hook extracts fields via `jq` and appends a structured entry to `.learnings/ERRORS.md` with a unique ID, timestamp, and error context. No manual action needed.
 
 **Example 2 — User correction capture:**
 
 **User:** Actually, that's wrong — we use pnpm here, not npm.
 
-The UserPromptSubmit hook detects "Actually, that's wrong" as a correction marker. It logs to `.learnings/LEARNINGS.md`: the user's correction, the context (Claude suggested npm), and the resolution (use pnpm). On the 3rd occurrence of "use pnpm not npm", it promotes to CLAUDE.md.
+The `UserPromptSubmit` hook receives `{ prompt: "Actually, that's wrong — we use pnpm here, not npm." }` on stdin. It extracts the prompt via `jq`, detects "Actually, that's wrong" as a correction marker, and logs to `.learnings/LEARNINGS.md`. When the bridge later identifies 3+ similar corrections about "use pnpm not npm", it promotes the pattern to `CLAUDE.md`.
 
 **Example 3 — Deep analysis via bridge:**
 
 **User:** Analyze my learnings from this week. What patterns am I repeating?
 
-The bridge runs the self-improvement-enhanced engine. It finds 12 entries in `.learnings/`, clusters them into 3 semantic groups, identifies 2 patterns above the promotion threshold, flags 1 anti-pattern (repeated same debugging approach), and generates a report with specific CLAUDE.md additions.
+The bridge runs the self-improvement engine with TF-IDF semantic retrieval. It finds 12 entries in `.learnings/`, clusters them into 3 semantic groups, identifies 2 patterns above the promotion threshold, flags 1 anti-pattern (repeated same debugging approach), and generates a report with specific `CLAUDE.md` additions.
 
 ## Hook Scripts
+
+Both scripts receive JSON on stdin from Claude Code and require `jq` for parsing.
 
 ### `.claude/hooks/on-error.sh`
 
 ```bash
 #!/bin/bash
-# PostToolUse hook — captures tool failures
-# Reads: $TOOL_NAME, $EXIT_CODE, $TOOL_OUTPUT (from stdin)
+set -euo pipefail
+# PostToolUseFailure hook — captures tool failures
+# Receives JSON on stdin: { tool_name, tool_input, error, is_interrupt, cwd, session_id }
+# Requires: jq
 
-EXIT_CODE="${TOOL_EXIT_CODE:-0}"
-[ "$EXIT_CODE" -eq 0 ] && exit 0
+INPUT=$(cat)
 
-LEARNINGS_DIR=".learnings"
+# Skip if user interrupted (not a real error)
+IS_INTERRUPT=$(echo "$INPUT" | jq -r '.is_interrupt // false')
+[ "$IS_INTERRUPT" = "true" ] && exit 0
+
+TOOL_NAME=$(echo "$INPUT" | jq -r '.tool_name // "unknown"')
+ERROR_MSG=$(echo "$INPUT" | jq -r '.error // "unknown error"')
+COMMAND=$(echo "$INPUT" | jq -r '.tool_input.command // ""' | head -c 500)
+SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"')
+CWD=$(echo "$INPUT" | jq -r '.cwd // "."')
+
+LEARNINGS_DIR="$CWD/.learnings"
 mkdir -p "$LEARNINGS_DIR"
 
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
-TOOL="${TOOL_NAME:-unknown}"
-OUTPUT=$(cat /dev/stdin 2>/dev/null | head -50)
+ENTRY_ID="entry-$(date '+%s')-$$"
 
-cat >> "$LEARNINGS_DIR/ERRORS.md" << EOF
+{
+  printf '\n## [ERROR] %s failed — %s  (ID: %s)\n\n' "$TOOL_NAME" "$TIMESTAMP" "$ENTRY_ID"
+  printf '**Area**: `%s`\n' "$CWD"
+  printf '**Trigger**: error\n'
+  printf '**Priority**: medium\n'
+  printf '**Status**: new\n\n'
+  printf '### What Happened\n'
+  printf 'Tool `%s` failed.\n\n' "$TOOL_NAME"
+  printf '### Context\n```\n'
+  printf '%s\n' "$ERROR_MSG"
+  [ -n "$COMMAND" ] && printf 'Command: %s\n' "$COMMAND"
+  printf '```\n\n'
+  printf '### Resolution\n[Pending — to be filled when resolved]\n\n'
+  printf '### Metadata\n- **Session**: %s\n- **Promoted**: false\n---\n' "$SESSION_ID"
+} >> "$LEARNINGS_DIR/ERRORS.md"
 
-## [ERROR] ${TOOL} failed (exit ${EXIT_CODE}) — ${TIMESTAMP}
-
-**Area**: \`${PWD}\`
-**Trigger**: error
-**Priority**: medium
-
-### What Happened
-Tool \`${TOOL}\` exited with code ${EXIT_CODE}.
-
-### Context
-\`\`\`
-${OUTPUT}
-\`\`\`
-
-### Resolution
-[Pending — to be filled when resolved]
-
-### Metadata
-- **Promoted**: false
----
-EOF
-
-echo "[LOGGED] Tool failure → .learnings/ERRORS.md"
+echo "[LOGGED] Tool failure → .learnings/ERRORS.md (ID: $ENTRY_ID)"
 ```
 
 ### `.claude/hooks/on-correction.sh`
 
 ```bash
 #!/bin/bash
-# UserPromptSubmit hook — captures user corrections
+set -euo pipefail
+# UserPromptSubmit hook — captures user corrections and feature requests
+# Receives JSON on stdin: { prompt, session_id, cwd }
+# Requires: jq
 
-PROMPT="$1"
+INPUT=$(cat)
 
-# Correction markers (case-insensitive)
-if echo "$PROMPT" | grep -iqE "(actually|no,? that'?s wrong|I meant|not what I asked|that'?s incorrect|you'?re wrong|wrong approach|don'?t do that)"; then
-  LEARNINGS_DIR=".learnings"
+PROMPT=$(echo "$INPUT" | jq -r '.prompt // ""')
+[ -z "$PROMPT" ] && exit 0
+
+SESSION_ID=$(echo "$INPUT" | jq -r '.session_id // "unknown"')
+CWD=$(echo "$INPUT" | jq -r '.cwd // "."')
+
+LEARNINGS_DIR="$CWD/.learnings"
+TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
+ENTRY_ID="entry-$(date '+%s')-$$"
+
+# Feature request detection
+if echo "$PROMPT" | grep -iqE "(can you add|feature request|would be nice if|I wish|it would help if|please add|we need a)"; then
   mkdir -p "$LEARNINGS_DIR"
+  {
+    printf '\n## [FEATURE] User request — %s  (ID: %s)\n\n' "$TIMESTAMP" "$ENTRY_ID"
+    printf '**Area**: `%s`\n' "$CWD"
+    printf '**Trigger**: feature-request\n'
+    printf '**Priority**: medium\n'
+    printf '**Status**: new\n\n'
+    printf '### What Was Requested\n'
+    printf '%s\n\n' "$PROMPT"
+    printf '### Metadata\n- **Session**: %s\n- **Promoted**: false\n---\n' "$SESSION_ID"
+  } >> "$LEARNINGS_DIR/FEATURE_REQUESTS.md"
+  echo "[LOGGED] Feature request → .learnings/FEATURE_REQUESTS.md (ID: $ENTRY_ID)"
+  exit 0
+fi
 
-  TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
-
-  cat >> "$LEARNINGS_DIR/LEARNINGS.md" << EOF
-
-## [CORRECTION] User correction — ${TIMESTAMP}
-
-**Area**: \`${PWD}\`
-**Trigger**: correction
-**Priority**: high
-
-### What Happened
-User corrected Claude's approach or output.
-
-### Context
-User said: "${PROMPT}"
-
-### Resolution
-[Apply user's correction and update approach]
-
-### Metadata
-- **Promoted**: false
----
-EOF
-
-  echo "[LOGGED] User correction → .learnings/LEARNINGS.md"
+# Correction detection (case-insensitive)
+if echo "$PROMPT" | grep -iqE "(actually|no,? that'?s wrong|I meant|not what I asked|that'?s incorrect|you'?re wrong|wrong approach|don'?t do that)"; then
+  mkdir -p "$LEARNINGS_DIR"
+  {
+    printf '\n## [CORRECTION] User correction — %s  (ID: %s)\n\n' "$TIMESTAMP" "$ENTRY_ID"
+    printf '**Area**: `%s`\n' "$CWD"
+    printf '**Trigger**: correction\n'
+    printf '**Priority**: high\n'
+    printf '**Status**: new\n\n'
+    printf '### What Happened\n'
+    printf 'User corrected Claude'\''s approach or output.\n\n'
+    printf '### Context\n'
+    printf '%s\n\n' "$PROMPT"
+    printf '### Resolution\n[Apply user'\''s correction and update approach]\n\n'
+    printf '### Metadata\n- **Session**: %s\n- **Promoted**: false\n---\n' "$SESSION_ID"
+  } >> "$LEARNINGS_DIR/LEARNINGS.md"
+  echo "[LOGGED] User correction → .learnings/LEARNINGS.md (ID: $ENTRY_ID)"
 fi
 ```
 
@@ -272,20 +308,34 @@ After setup, your project will have:
 
 ```
 .learnings/
-  ERRORS.md        # Tool failures, exceptions, crashes
-  LEARNINGS.md     # User corrections, knowledge gaps, discoveries
-  PATTERNS.md      # Promoted recurring patterns (auto-generated)
+  ERRORS.md           # Tool failures, exceptions, crashes
+  LEARNINGS.md        # User corrections, knowledge gaps, discoveries
+  FEATURE_REQUESTS.md # User-requested features and enhancements
+  PATTERNS.md         # Promoted recurring patterns (bridge-generated)
 .claude/
   hooks/
-    on-error.sh    # PostToolUse hook script
+    on-error.sh       # PostToolUseFailure hook script
     on-correction.sh  # UserPromptSubmit hook script
 ```
 
 ## Error Handling
+
+If `jq` is not installed, the hooks will fail silently (due to `set -euo pipefail`). Install it first:
+
+```bash
+# macOS
+brew install jq
+
+# Ubuntu/Debian
+sudo apt install jq
+
+# Windows (via Chocolatey)
+choco install jq
+```
 
 If the bridge is unreachable (bridge mode only):
 
 > Bridge server is not responding. Local hooks are still active — errors and corrections continue to be captured in `.learnings/`. For deep analysis, start the bridge with:
 > `./scripts/openclaw/quickstart.sh` (Linux/macOS) or `.\scripts\openclaw\quickstart.ps1` (Windows)
 
-Local hooks have no external dependencies and never fail silently.
+Local hooks have no external dependencies beyond `jq` and never fail silently.

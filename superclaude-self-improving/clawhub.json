@@ -1,11 +1,11 @@
 {
   "name": "SuperClaude Self-Improving Agent",
   "slug": "superclaude-self-improving",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "pricing": "free",
   "tagline": "Continuous learning with semantic pattern detection and automatic knowledge promotion",
-  "description": "Hybrid self-improvement system that captures errors, corrections, and knowledge gaps in real-time via hooks, then evolves project intelligence through TF-IDF semantic retrieval, decay-weighted memory, and automatic pattern promotion. Local hooks work offline at zero cost. Bridge mode enables deep analysis with anti-pattern detection and cross-session learning.",
+  "description": "Hybrid self-improvement system that captures errors, corrections, and knowledge gaps in real-time via Claude Code hooks (PostToolUseFailure + UserPromptSubmit), then evolves project intelligence through TF-IDF semantic retrieval, decay-weighted memory, and automatic pattern promotion. Local hooks work offline at zero cost (requires jq). Bridge mode enables deep analysis with anti-pattern detection and cross-session learning.",
   "category": "ai-ml",
   "tags": [
     "superclaude",
